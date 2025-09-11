@@ -1,148 +1,19 @@
-[2025-09-02 10:52:16] [INFO] UserTests - >>> Test user created with username: user7647
-[2025-09-02 10:52:16] [INFO] UserTests - Sending request to create user: user7647
-[2025-09-02 10:52:21] [INFO] UserTests - User creation test passed.
-[2025-09-02 10:52:21] [INFO] UserTests - Fetching user by username: user7647
-[2025-09-02 10:52:23] [INFO] UserTests - User retrieval test passed.
-[2025-09-02 10:52:23] [INFO] UserTests - Updating user: user7647
-[2025-09-02 10:52:25] [INFO] UserTests - User update request successful.
-[2025-09-02 11:36:36] [INFO] UserTests - >>> Test user created with username: user3500
-[2025-09-02 11:36:36] [INFO] UserTests - Sending request to create user: user3500
-[2025-09-02 11:36:40] [INFO] UserTests - User creation test passed.
-[2025-09-02 11:36:40] [INFO] UserTests - Fetching user by username: user3500
-[2025-09-02 11:56:13] [INFO] UserTests - >>> Test user created with username: user6214
-[2025-09-02 11:56:41] [INFO] UserTests - >>> Test user created with username: user8012
-[2025-09-02 11:56:41] [INFO] UserTests - Sending request to create user: user8012
-[2025-09-02 11:57:58] [INFO] UserTests2 - >>> Test user created with username: user5878
-[2025-09-02 11:57:58] [INFO] UserTests2 - Sending request to create user: user5878
-[2025-09-02 11:58:27] [INFO] UserTests2 - >>> Test user created with username: user3739
-[2025-09-02 11:58:27] [INFO] UserTests2 - Sending request to create user: user3739
-[2025-09-02 12:00:25] [INFO] UserTests2 - >>> Test user created with username: user3342
-[2025-09-02 12:00:25] [INFO] UserTests2 - Sending request to create user: user3342
-[2025-09-02 12:02:20] [INFO] UserTests2 - >>> Test user created with username: user8001
-[2025-09-02 12:02:20] [INFO] UserTests2 - Sending request to create user: user8001
-[2025-09-02 12:02:24] [INFO] UserTests2 - User creation test passed.
-[2025-09-02 12:02:24] [INFO] UserTests2 - Fetching user by username: user8001
-[2025-09-02 12:02:26] [INFO] UserTests2 - User retrieval test passed.
-[2025-09-02 12:02:26] [INFO] UserTests2 - Updating user: user8001
-[2025-09-02 12:02:43] [INFO] UserTests2 - >>> Test user created with username: user5614
-[2025-09-02 12:02:43] [INFO] UserTests2 - Sending request to create user: user5614
-[2025-09-02 12:02:48] [INFO] UserTests2 - User creation test passed.
-[2025-09-02 12:02:48] [INFO] UserTests2 - Fetching user by username: user5614
-[2025-09-02 12:05:41] [INFO] UserTests2 - >>> Test user created with username: user8096
-[2025-09-02 12:05:41] [INFO] UserTests2 - Sending request to create user: user8096
-[2025-09-02 12:05:47] [INFO] UserTests2 - User creation test passed.
-[2025-09-02 12:05:47] [INFO] UserTests2 - Fetching user by username: user8096
-[2025-09-02 12:05:49] [INFO] UserTests2 - User retrieval test passed.
-[2025-09-02 12:05:49] [INFO] UserTests2 - Updating user: user8096
-[2025-09-02 12:05:55] [INFO] UserTests2 - >>> Test user created with username: user5888
-[2025-09-02 12:05:55] [INFO] UserTests2 - Sending request to create user: user5888
-[2025-09-02 12:06:00] [INFO] UserTests2 - User creation test passed.
-[2025-09-02 12:06:00] [INFO] UserTests2 - Fetching user by username: user5888
-[2025-09-02 12:06:39] [INFO] UserTests2 - >>> Test user created with username: user6607
-[2025-09-02 12:06:39] [INFO] UserTests2 - Sending request to create user: user6607
-[2025-09-02 12:06:44] [INFO] UserTests2 - User creation test passed.
-[2025-09-02 12:06:44] [INFO] UserTests2 - Fetching user by username: user6607
-[2025-09-02 12:06:45] [INFO] UserTests2 - User retrieval test passed.
-[2025-09-02 12:06:45] [INFO] UserTests2 - Updating user: user6607
-[2025-09-02 12:08:26] [INFO] UserTests2 - >>> Test user created with username: user9616
-[2025-09-02 12:08:26] [INFO] UserTests2 - Sending request to create user: user9616
-[2025-09-02 12:08:31] [INFO] UserTests2 - User creation test passed.
-[2025-09-02 12:08:31] [INFO] UserTests2 - Fetching user by username: user9616
-[2025-09-02 12:08:32] [INFO] UserTests2 - User retrieval test passed.
-[2025-09-02 12:08:32] [INFO] UserTests2 - Updating user: user9616
-[2025-09-02 12:08:34] [INFO] UserTests2 - User update request successful.
-[2025-09-02 12:09:08] [INFO] UserTests2 - >>> Test user created with username: user5016
-[2025-09-02 12:09:08] [INFO] UserTests2 - Sending request to create user: user5016
-[2025-09-02 12:09:13] [INFO] UserTests2 - User creation test passed.
-[2025-09-02 12:09:13] [INFO] UserTests2 - Fetching user by username: user5016
-[2025-09-02 12:10:28] [INFO] UserTests2 - >>> Test user created with username: user5948
-[2025-09-02 12:10:28] [INFO] UserTests2 - Sending request to create user: user5948
-[2025-09-02 12:10:33] [INFO] UserTests2 - User creation test passed.
-[2025-09-02 12:10:33] [INFO] UserTests2 - Fetching user by username: user5948
-[2025-09-02 12:10:34] [INFO] UserTests2 - User retrieval test passed.
-[2025-09-02 12:10:34] [INFO] UserTests2 - Updating user: user5948
-[2025-09-02 12:10:36] [INFO] UserTests2 - User update request successful.
-[2025-09-02 12:10:37] [INFO] UserTests2 - User update verified successfully.
-[2025-09-02 12:10:37] [INFO] UserTests2 - Deleting user: user5948
-[2025-09-02 12:10:38] [INFO] UserTests2 - Delete test executed with status code: 200
-[2025-09-02 12:18:31] [INFO] UserTests - >>> Test user created with username: user7028
-[2025-09-02 12:18:31] [INFO] UserTests - Sending request to create user: user7028
-[2025-09-02 12:18:43] [INFO] UserTests - User creation test passed.
-[2025-09-02 12:18:43] [INFO] UserTests - Fetching user by username: user7028
-[2025-09-02 12:25:06] [INFO] UserTests - >>> Test user created with username: user9122
-[2025-09-02 12:25:06] [INFO] UserTests - Sending request to create user: user9122
-[2025-09-02 12:25:10] [INFO] UserTests - User creation test passed.
-[2025-09-02 12:25:10] [INFO] UserTests - Fetching user by username: user9122
-[2025-09-02 12:25:12] [INFO] UserTests - User retrieval test passed.
-[2025-09-02 12:25:12] [INFO] UserTests - Updating user: user9122
-[2025-09-02 12:25:13] [INFO] UserTests - User update request successful.
-[2025-09-02 12:25:15] [INFO] UserTests - User update verified successfully.
-[2025-09-02 12:25:15] [INFO] UserTests - Deleting user: user9122
-[2025-09-02 12:25:16] [INFO] UserTests - Delete test executed with status code: 200
-[2025-09-02 12:28:59] [INFO] UserTests - >>> Test user created with username: user9522
-[2025-09-02 12:28:59] [INFO] UserTests - Sending request to create user: user9522
-[2025-09-02 12:29:01] [INFO] UserTests - User creation test passed.
-[2025-09-02 12:29:01] [INFO] UserTests - Fetching user by username: user9522
-[2025-09-02 12:29:03] [INFO] UserTests - User retrieval test passed.
-[2025-09-02 12:29:03] [INFO] UserTests - Updating user: user9522
-[2025-09-02 12:29:04] [INFO] UserTests - User update request successful.
-[2025-09-02 12:29:05] [INFO] UserTests2 - >>> Test user created with username: user8569
-[2025-09-02 12:29:05] [INFO] UserTests2 - Sending request to create user: user8569
-[2025-09-02 12:29:06] [INFO] UserTests2 - User creation test passed.
-[2025-09-02 12:29:06] [INFO] UserTests2 - Fetching user by username: user8569
-[2025-09-02 13:56:26] [INFO] UserTests - >>> Test user created with username: user3535
-[2025-09-02 13:56:27] [INFO] UserTests - Sending request to create user: user3535
-[2025-09-02 13:56:38] [INFO] UserTests - User creation test passed.
-[2025-09-02 13:56:38] [INFO] UserTests - Fetching user by username: user3535
-[2025-09-02 13:56:40] [INFO] UserTests2 - >>> Test user created with username: user5330
-[2025-09-02 13:56:40] [INFO] UserTests2 - Sending request to create user: user5330
-[2025-09-02 13:56:42] [INFO] UserTests2 - User creation test passed.
-[2025-09-02 13:56:42] [INFO] UserTests2 - Fetching user by username: user5330
-[2025-09-02 14:02:41] [INFO] UserTests - >>> Test user created with username: user9474
-[2025-09-02 14:02:41] [INFO] UserTests - Sending request to create user: user9474
-[2025-09-02 14:02:46] [INFO] UserTests - User creation test passed.
-[2025-09-02 14:02:46] [INFO] UserTests - Fetching user by username: user9474
-[2025-09-02 14:02:48] [INFO] UserTests - User retrieval test passed.
-[2025-09-02 14:02:48] [INFO] UserTests - Updating user: user9474
-[2025-09-02 14:02:49] [INFO] UserTests - User update request successful.
-[2025-09-02 14:02:50] [INFO] UserTests - User update verified successfully.
-[2025-09-02 14:02:50] [INFO] UserTests - Deleting user: user9474
-[2025-09-02 14:02:51] [INFO] UserTests - Delete test executed with status code: 200
-[2025-09-02 14:02:51] [INFO] UserTests2 - >>> Test user created with username: user8712
-[2025-09-02 14:02:51] [INFO] UserTests2 - Sending request to create user: user8712
-[2025-09-02 14:02:53] [INFO] UserTests2 - User creation test passed.
-[2025-09-02 14:02:53] [INFO] UserTests2 - Fetching user by username: user8712
-[2025-09-02 14:02:54] [INFO] UserTests2 - User retrieval test passed.
-[2025-09-02 14:02:54] [INFO] UserTests2 - Updating user: user8712
-[2025-09-02 14:02:56] [INFO] UserTests2 - User update request successful.
-[2025-09-02 14:33:27] [INFO] UserTests - >>> Test user created with username: user5445
-[2025-09-02 14:33:27] [INFO] UserTests - Sending request to create user: user5445
-[2025-09-02 14:33:33] [INFO] UserTests - User creation test passed.
-[2025-09-02 14:33:33] [INFO] UserTests - Fetching user by username: user5445
-[2025-09-02 14:33:34] [INFO] UserTests - User retrieval test passed.
-[2025-09-02 14:33:34] [INFO] UserTests - Updating user: user5445
-[2025-09-02 14:33:36] [INFO] UserTests - User update request successful.
-[2025-09-02 14:33:37] [INFO] UserTests2 - >>> Test user created with username: user9626
-[2025-09-02 14:33:37] [INFO] UserTests2 - Sending request to create user: user9626
-[2025-09-02 14:33:40] [INFO] UserTests2 - User creation test passed.
-[2025-09-02 14:33:40] [INFO] UserTests2 - Fetching user by username: user9626
-[2025-09-02 14:46:46] [INFO] UserTests - >>> Test user created with username: user7778
-[2025-09-02 14:46:46] [INFO] UserTests - Sending request to create user: user7778
-[2025-09-02 14:46:52] [INFO] UserTests - User creation test passed.
-[2025-09-02 14:46:52] [INFO] UserTests - Fetching user by username: user7778
-[2025-09-02 14:46:54] [INFO] UserTests - User retrieval test passed.
-[2025-09-02 14:46:54] [INFO] UserTests - Updating user: user7778
-[2025-09-02 14:46:55] [INFO] UserTests - User update request successful.
-[2025-09-02 14:46:56] [INFO] UserTests - User update verified successfully.
-[2025-09-02 14:46:56] [INFO] UserTests - Deleting user: user7778
-[2025-09-02 14:46:58] [INFO] UserTests - Delete test executed with status code: 200
-[2025-09-02 14:47:13] [INFO] UserTests2 - >>> Test user created with username: user3325
-[2025-09-02 14:47:13] [INFO] UserTests2 - Sending request to create user: user3325
-[2025-09-02 14:47:18] [INFO] UserTests2 - User creation test passed.
-[2025-09-02 14:47:18] [INFO] UserTests2 - Fetching user by username: user3325
-[2025-09-02 14:47:19] [INFO] UserTests2 - User retrieval test passed.
-[2025-09-02 14:47:19] [INFO] UserTests2 - Updating user: user3325
-[2025-09-02 14:47:21] [INFO] UserTests2 - User update request successful.
-[2025-09-02 14:47:22] [INFO] UserTests2 - User update verified successfully.
-[2025-09-02 14:47:22] [INFO] UserTests2 - Deleting user: user3325
-[2025-09-02 14:47:23] [INFO] UserTests2 - Delete test executed with status code: 200
+[2025-09-11 11:08:36] [INFO] UserTests - >>> Test user created with username: user5871
+[2025-09-11 11:08:36] [INFO] UserTests - Sending request to create user: user5871
+[2025-09-11 11:08:43] [INFO] UserTests - User creation test passed.
+[2025-09-11 11:08:43] [INFO] UserTests - Fetching user by username: user5871
+[2025-09-11 11:08:45] [INFO] UserTests2 - >>> Test user created with username: user9188
+[2025-09-11 11:08:45] [INFO] UserTests2 - Sending request to create user: user9188
+[2025-09-11 11:08:46] [INFO] UserTests2 - User creation test passed.
+[2025-09-11 11:08:46] [INFO] UserTests2 - Fetching user by username: user9188
+[2025-09-11 11:08:48] [INFO] UserTests2 - User retrieval test passed.
+[2025-09-11 11:08:48] [INFO] UserTests2 - Updating user: user9188
+[2025-09-11 11:08:49] [INFO] UserTests2 - User update request successful.
+[2025-09-11 11:11:55] [INFO] UserTests - >>> Test user created with username: user8649
+[2025-09-11 11:11:56] [INFO] UserTests - Sending request to create user: user8649
+[2025-09-11 11:12:00] [INFO] UserTests - User creation test passed.
+[2025-09-11 11:12:00] [INFO] UserTests - Fetching user by username: user8649
+[2025-09-11 11:12:04] [INFO] UserTests2 - >>> Test user created with username: user6055
+[2025-09-11 11:12:04] [INFO] UserTests2 - Sending request to create user: user6055
+[2025-09-11 11:12:05] [INFO] UserTests2 - User creation test passed.
+[2025-09-11 11:12:05] [INFO] UserTests2 - Fetching user by username: user6055

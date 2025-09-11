@@ -1,7 +1,14 @@
-api\test\DDTests.class
-api\endpoints\UserEndpoints.class
+api\test\UserTests.class
 api\utilities\ExtentReportManager.class
 api\utilities\DataProviders.class
+api\utilities\NoRetry.class
+api\utilities\RetryListener.class
 api\payload\User.class
 api\endpoints\Routes.class
+api\utilities\RetryAnalyzer.class
+api\endpoints\UserEndpoints2.class
+api\test\DDTests.class
+api\test\UserTests2.class
+api\endpoints\UserEndpoints.class
+api\utilities\Flaky.class
 api\utilities\ExcelUtils.class
