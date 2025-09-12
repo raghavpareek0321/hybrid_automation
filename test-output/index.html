@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-PetStoreAutomationSuite" class="navigator-link">
-              <span class="suite-name border-passed">PetStoreAutomationSuite</span>
+              <span class="suite-name border-failed">PetStoreAutomationSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">8 methods, 2 failed,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-PetStoreAutomationSuite" class="hide-methods failed suite-PetStoreAutomationSuite"> (hide)</a> <!-- hide-methods failed suite-PetStoreAutomationSuite -->
+                      <a href="#" panel-name="suite-PetStoreAutomationSuite" class="show-methods failed suite-PetStoreAutomationSuite"> (show)</a> <!-- show-methods failed suite-PetStoreAutomationSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-PetStoreAutomationSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreAutomationSuite" title="api.test.UserTests2" class="method navigator-link" hash-for-method="testDeleteUser">testDeleteUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreAutomationSuite" title="api.test.UserTests" class="method navigator-link" hash-for-method="testGetUserByName">testGetUserByName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-PetStoreAutomationSuite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,12 +122,32 @@
                     <div class="method-list-content passed suite-PetStoreAutomationSuite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreAutomationSuite" title="api.test.UserTests2" class="method navigator-link" hash-for-method="testCreateMultipleUsers">testCreateMultipleUsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-PetStoreAutomationSuite" title="api.test.UserTests" class="method navigator-link" hash-for-method="testCreateUser">testCreateUser</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-PetStoreAutomationSuite" title="api.test.UserTests" class="method navigator-link" hash-for-method="testDeleteUser">testDeleteUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreAutomationSuite" title="api.test.UserTests2" class="method navigator-link" hash-for-method="testGetAllUsers">testGetAllUsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreAutomationSuite" title="api.test.UserTests2" class="method navigator-link" hash-for-method="testUpdateUser">testUpdateUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PetStoreAutomationSuite" title="api.test.UserTests" class="method navigator-link" hash-for-method="testUpdateUser">testUpdateUser</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-PetStoreAutomationSuite -->
@@ -123,6 +162,46 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-PetStoreAutomationSuite" class="panel PetStoreAutomationSuite">
+          <div class="suite-PetStoreAutomationSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">api.test.UserTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetUserByName">
+                  </a> <!-- testGetUserByName -->
+                  <span class="method-name">testGetUserByName</span>
+                  <div class="stack-trace">java.lang.AssertionError: User not found after creation! expected [200] but found [404]
+	at api.test.UserTests.testGetUserByName(UserTests.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PetStoreAutomationSuite-class-failed -->
+          <div class="suite-PetStoreAutomationSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">api.test.UserTests2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteUser">
+                  </a> <!-- testDeleteUser -->
+                  <span class="method-name">testDeleteUser</span>
+                  <div class="stack-trace">java.lang.AssertionError: Failed to delete user! expected [200] but found [404]
+	at api.test.UserTests2.testDeleteUser(UserTests2.java:125)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PetStoreAutomationSuite-class-failed -->
           <div class="suite-PetStoreAutomationSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -141,6 +220,42 @@
                   <a name="testDeleteUser">
                   </a> <!-- testDeleteUser -->
                   <span class="method-name">testDeleteUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateUser">
+                  </a> <!-- testUpdateUser -->
+                  <span class="method-name">testUpdateUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PetStoreAutomationSuite-class-passed -->
+          <div class="suite-PetStoreAutomationSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">api.test.UserTests2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateMultipleUsers">
+                  </a> <!-- testCreateMultipleUsers -->
+                  <span class="method-name">testCreateMultipleUsers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetAllUsers">
+                  </a> <!-- testGetAllUsers -->
+                  <span class="method-name">testGetAllUsers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateUser">
+                  </a> <!-- testUpdateUser -->
+                  <span class="method-name">testUpdateUser</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -214,16 +329,28 @@
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
-              <span class="test-group-name">delete</span>
+              <span class="test-group-name">sanity</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">testDeleteUser</span>
+                <span class="method-in-group-name">testGetAllUsers</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testGetUserByName</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testUpdateUser</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
             <div class="test-group">
               <span class="test-group-name">smoke</span>
               <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testCreateMultipleUsers</span>
+                <br/>
+              </div> <!-- method-in-group -->
               <div class="method-in-group">
                 <span class="method-in-group-name">testCreateUser</span>
                 <br/>
@@ -249,20 +376,44 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(8);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testCreateUser')
 data.setCell(0, 2, 'api.test.UserTests')
-data.setCell(0, 3, 52);
+data.setCell(0, 3, 3579);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testDeleteUser')
 data.setCell(1, 2, 'api.test.UserTests')
-data.setCell(1, 3, 3);
+data.setCell(1, 3, 2696);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testUpdateUser')
+data.setCell(2, 2, 'api.test.UserTests2')
+data.setCell(2, 3, 2677);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testDeleteUser')
+data.setCell(3, 2, 'api.test.UserTests2')
+data.setCell(3, 3, 2641);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testCreateMultipleUsers')
+data.setCell(4, 2, 'api.test.UserTests2')
+data.setCell(4, 3, 2393);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testGetUserByName')
+data.setCell(5, 2, 'api.test.UserTests')
+data.setCell(5, 3, 2270);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testGetAllUsers')
+data.setCell(6, 2, 'api.test.UserTests2')
+data.setCell(6, 3, 2262);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testUpdateUser')
+data.setCell(7, 2, 'api.test.UserTests')
+data.setCell(7, 3, 1855);
 window.suiteTableData['PetStoreAutomationSuite']= { tableData: data, tableDiv: 'times-div-PetStoreAutomationSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 55 ms</span>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
               <div id="times-div-PetStoreAutomationSuite">
               </div> <!-- times-div-PetStoreAutomationSuite -->
             </div> <!-- times-div -->
@@ -277,21 +428,17 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-PetStoreAutomationSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">18 ignored methods</span>
+            <span class="header-content">12 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
               <span class="ignored-class-name">api.test.UserTests</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">testUpdateUser</span>
+                <span class="ignored-method-name">testCreateUser</span>
                 <br/>
                 <span class="ignored-method-name">testUpdateUser</span>
-                <br/>
-                <span class="ignored-method-name">testGetUserByName</span>
                 <br/>
                 <span class="ignored-method-name">testDeleteUser</span>
-                <br/>
-                <span class="ignored-method-name">testCreateUser</span>
                 <br/>
                 <span class="ignored-method-name">testGetUserByName</span>
                 <br/>
@@ -300,21 +447,13 @@ return data;
             <div class="ignored-class-div">
               <span class="ignored-class-name">api.test.UserTests2</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">testPostUser</span>
+                <span class="ignored-method-name">testCreateMultipleUsers</span>
                 <br/>
                 <span class="ignored-method-name">testUpdateUser</span>
                 <br/>
                 <span class="ignored-method-name">testDeleteUser</span>
                 <br/>
-                <span class="ignored-method-name">testDeleteUser</span>
-                <br/>
-                <span class="ignored-method-name">testGetUserByName</span>
-                <br/>
-                <span class="ignored-method-name">testUpdateUser</span>
-                <br/>
-                <span class="ignored-method-name">testGetUserByName</span>
-                <br/>
-                <span class="ignored-method-name">testPostUser</span>
+                <span class="ignored-method-name">testGetAllUsers</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -346,7 +485,44 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testDeleteUser</span>
-                <span class="method-start">75 ms</span>
+                <span class="method-start">3587 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.test.UserTests2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCreateMultipleUsers</span>
+                <span class="method-start">6283 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testDeleteUser</span>
+                <span class="method-start">8679 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.test.UserTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testGetUserByName</span>
+                <span class="method-start">11618 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdateUser</span>
+                <span class="method-start">13891 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">api.test.UserTests2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGetAllUsers</span>
+                <span class="method-start">15749 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdateUser</span>
+                <span class="method-start">18014 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

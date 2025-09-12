@@ -9,14 +9,26 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">PetStoreAutomationSuite</th></tr>
-<tr><td><a href="#t0">Smoke Test Execution</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">553</td><td>smoke</td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Sanity Test Execution</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">1</td><td>sanity</td><td></td></tr>
-<tr><th>Total</th><th class="num">2</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">554</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Smoke Test Execution</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">11,692</td><td>smoke</td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Sanity Test Execution</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">9,076</td><td>sanity</td><td></td></tr>
+<tr><th>Total</th><th class="num">6</th><th class="num">0</th><th class="num">0</th><th class="num attn">2</th><th class="num">20,768</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">PetStoreAutomationSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Smoke Test Execution &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">api.test.UserTests</td><td><a href="#m0">testCreateUser</a></td><td rowspan="1">1757572054108</td><td rowspan="1">52</td></tr><tr class="passedeven"><td><a href="#m1">testDeleteUser</a></td><td rowspan="1">1757572054183</td><td rowspan="1">3</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4" class="invisible"/></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">PetStoreAutomationSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Smoke Test Execution &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">api.test.UserTests2</td><td><a href="#m0">testDeleteUser</a></td><td rowspan="1">1757654833952</td><td rowspan="1">2641</td></tr><tr><th colspan="4">Smoke Test Execution &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">api.test.UserTests</td><td><a href="#m1">testCreateUser</a></td><td rowspan="1">1757654825273</td><td rowspan="1">3579</td></tr><tr class="passedeven"><td><a href="#m2">testDeleteUser</a></td><td rowspan="1">1757654828860</td><td rowspan="1">2696</td></tr><tr class="passedodd"><td rowspan="1">api.test.UserTests2</td><td><a href="#m3">testCreateMultipleUsers</a></td><td rowspan="1">1757654831556</td><td rowspan="1">2393</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Sanity Test Execution &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">api.test.UserTests</td><td><a href="#m4">testGetUserByName</a></td><td rowspan="1">1757654836891</td><td rowspan="1">2270</td></tr><tr><th colspan="4">Sanity Test Execution &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">api.test.UserTests</td><td><a href="#m5">testUpdateUser</a></td><td rowspan="1">1757654839164</td><td rowspan="1">1855</td></tr><tr class="passedodd"><td rowspan="2">api.test.UserTests2</td><td><a href="#m6">testGetAllUsers</a></td><td rowspan="1">1757654841022</td><td rowspan="1">2262</td></tr><tr class="passedodd"><td><a href="#m7">testUpdateUser</a></td><td rowspan="1">1757654843287</td><td rowspan="1">2677</td></tr></tbody>
 </table>
-<h2>Smoke Test Execution</h2><h3 id="m0">api.test.UserTests#testCreateUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">api.test.UserTests#testDeleteUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Sanity Test Execution</h2></body>
+<h2>Smoke Test Execution</h2><h3 id="m0">api.test.UserTests2#testDeleteUser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Failed to delete user! expected [200] but found [404]
+	at api.test.UserTests2.testDeleteUser(UserTests2.java:125)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">api.test.UserTests#testCreateUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">api.test.UserTests#testDeleteUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">api.test.UserTests2#testCreateMultipleUsers</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Sanity Test Execution</h2><h3 id="m4">api.test.UserTests#testGetUserByName</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: User not found after creation! expected [200] but found [404]
+	at api.test.UserTests.testGetUserByName(UserTests.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">api.test.UserTests#testUpdateUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">api.test.UserTests2#testGetAllUsers</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">api.test.UserTests2#testUpdateUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
 </html>
