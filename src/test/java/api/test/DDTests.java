@@ -3,46 +3,23 @@ package api.test;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import api.endpoints.UserEndpoints;
-import api.payload.User; 
-import api.utilities.DataProviders;
+import api.endpoints.UserEndPoints;
+import api.payload.UserPayload;
+import api.utilities.ExcelDataProviders;
 import io.restassured.response.Response;
 
 public class DDTests {
 
-    @Test(priority = 1, dataProvider = "userData", dataProviderClass = DataProviders.class)
-    public void testPostUser(String id, String username, String firstName, String lastName,
-                             String email, String password, String phone, String userStatus) {
-
-        // Create POJO object
-        User userPayload = new User();
-        userPayload.setId(Long.parseLong(id));
-        userPayload.setUsername(username);
-        userPayload.setFirstName(firstName);
-        userPayload.setLastName(lastName);
-        userPayload.setEmail(email);
-        userPayload.setPassword(password);
-        userPayload.setPhone(phone);
-        userPayload.setUserStatus(Integer.parseInt(userStatus));
-
-      
-        Response res = UserEndpoints.createUser(userPayload);
-
-        res.then();
-
-     
-        Assert.assertEquals(res.statusCode(), 200, "User creation failed!");
-    }
-    @Test(priority = 99, dataProvider = "allUsernames", dataProviderClass = DataProviders.class)
-    public void deleteAllUsers(String username) {
-        Response res = UserEndpoints.deleteUser(username);
-        res.then();
-
-        int statusCode = res.getStatusCode();
-        Assert.assertTrue(
-            statusCode == 200 || statusCode == 404,
-            "Unexpected status while deleting user: " + username + " | Status: " + statusCode
-        );
+    @Test(dataProvider = "UserData", dataProviderClass = ExcelDataProviders.class)
+    public void testCreateUserDD(String id, String username, String firstName, String lastName, String email, String password, String phone) {
+        UserPayload user = new UserPayload(Integer.parseInt(id), username, firstName, lastName, email, password, phone);
+        Response response = UserEndPoints.createUser(user);
+        Assert.assertEquals(response.getStatusCode(), 200);
     }
 
+    @Test(dataProvider = "UserData", dataProviderClass = ExcelDataProviders.class)
+    public void testReadUserDD(String id, String username, String firstName, String lastName, String email, String password, String phone) {
+        Response response = UserEndPoints.readUser(username); // ✅ use username string
+        Assert.assertEquals(response.getStatusCode(), 200);
+    }
 }

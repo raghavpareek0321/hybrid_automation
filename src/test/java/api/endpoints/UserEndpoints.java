@@ -1,45 +1,54 @@
 package api.endpoints;
 
-import static io.restassured.RestAssured.*;
+import static io.restassured.RestAssured.given;
 
-import api.payload.User;
+import api.payload.UserPayload;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
-public class UserEndpoints {
-    
-    public static Response createUser(User payload) {
-        Response res = given()
+/**
+ * Main User API Endpoints
+ */
+public class UserEndPoints {
+
+    private static final String BASE_URL =
+            System.getProperty("userApiBaseUrl", "https://petstore.swagger.io/v2");
+
+    public static Response createUser(UserPayload payload) {
+        return given()
                 .contentType(ContentType.JSON)
                 .accept(ContentType.JSON)
                 .body(payload)
         .when()
-                .post(Routes.post_url);  
-        return res;
+                .post(BASE_URL + "/user");
     }
-    public static Response getUser( String userName) {
-        Response res=given()
-        		.pathParam("username",userName)
-        		.when()
-        		.get(Routes.get_url);
-        return res;
+
+    public static Response getUser(String username) {
+        return given()
+                .pathParam("username", username)
+        .when()
+                .get(BASE_URL + "/user/{username}");
     }
-    public static Response updateUser(User payload,String userName) {
-        Response res = given()
+
+    /** Backward compatibility for tests calling readUser() */
+    public static Response readUser(String username) {
+        return getUser(username);
+    }
+
+    public static Response updateUser(String username, UserPayload payload) {
+        return given()
                 .contentType(ContentType.JSON)
                 .accept(ContentType.JSON)
+                .pathParam("username", username)
                 .body(payload)
-                .pathParam("username",userName)
         .when()
-                .put(Routes.put_url);  
-        return res;
+                .put(BASE_URL + "/user/{username}");
     }
-    public static Response deleteUser( String userName) {
-        Response res=given()
-        		.pathParam("username",userName)
-        		.when()
-        		.delete(Routes.delete_url);
-        return res;
+
+    public static Response deleteUser(String username) {
+        return given()
+                .pathParam("username", username)
+        .when()
+                .delete(BASE_URL + "/user/{username}");
     }
-      
 }

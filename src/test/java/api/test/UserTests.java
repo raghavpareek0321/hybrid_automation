@@ -1,114 +1,53 @@
 package api.test;
 
-import api.payload.User;
-import api.payload.UserPayloads;
-import io.restassured.http.ContentType;
-import org.testng.Assert;
+import api.endpoints.UserEndPoints;
+import api.payload.UserPayload;
+import io.restassured.response.Response;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
-import static io.restassured.RestAssured.*;
 
 public class UserTests {
 
-    private static final String BASE_URI = "https://petstore.swagger.io/v2";
+    private UserPayload user;
+    private String username;
 
-    @Test(groups = {"smoke"})
+    @BeforeClass
+    public void setup() {
+        long ts = System.currentTimeMillis();
+        username = "user_tests_" + ts;
+
+        user = new UserPayload();
+        user.setId((int) (ts % 1000000));
+        user.setUsername(username);
+        user.setFirstName("John");
+        user.setLastName("Doe");
+        user.setEmail("john.doe+" + ts + "@example.com");
+        user.setPassword("Password123!");
+        user.setPhone("9876543210");
+    }
+
+    @Test(priority = 1)
     public void testCreateUser() {
-        User user = UserPayloads.newValidUser();
-
-        int status =
-            given()
-                .baseUri(BASE_URI)
-                .contentType(ContentType.JSON)
-                .body(user)
-            .when()
-                .post("/user")
-            .then()
-                .extract()
-                .statusCode();
-
-        Assert.assertEquals(status, 200, "Failed to create user!");
+        Response res = UserEndPoints.createUser(user);
+        res.then().statusCode(200);
     }
 
-    @Test(groups = {"sanity"})
-    public void testGetUserByName() {
-        User user = UserPayloads.newValidUser();
-        // First, create the user
-        given()
-            .baseUri(BASE_URI)
-            .contentType(ContentType.JSON)
-            .body(user)
-        .when()
-            .post("/user")
-        .then()
-            .statusCode(200);
-
-        // Now, fetch the user
-        int status =
-            given()
-                .baseUri(BASE_URI)
-            .when()
-                .get("/user/" + user.getUsername())
-            .then()
-                .extract()
-                .statusCode();
-
-        Assert.assertEquals(status, 200, "User not found after creation!");
+    @Test(priority = 2, dependsOnMethods = "testCreateUser")
+    public void testGetUser() {
+        Response res = UserEndPoints.getUser(username);
+        res.then().statusCode(200);
     }
 
-    @Test(groups = {"sanity"})
+    @Test(priority = 3, dependsOnMethods = "testCreateUser")
     public void testUpdateUser() {
-        User user = UserPayloads.newValidUser();
-        // Create user first
-        given()
-            .baseUri(BASE_URI)
-            .contentType(ContentType.JSON)
-            .body(user)
-        .when()
-            .post("/user")
-        .then()
-            .statusCode(200);
-
-        // Update email
-        User updated = UserPayloads.updateEmail(user, "updated_" + user.getEmail());
-
-        int status =
-            given()
-                .baseUri(BASE_URI)
-                .contentType(ContentType.JSON)
-                .body(updated)
-            .when()
-                .put("/user/" + user.getUsername())
-            .then()
-                .extract()
-                .statusCode();
-
-        Assert.assertEquals(status, 200, "Updated user not found!");
+        user.setFirstName("Johnny");
+        Response res = UserEndPoints.updateUser(username, user);
+        res.then().statusCode(200);
     }
 
-    @Test(groups = {"smoke"})
+    @Test(priority = 4, dependsOnMethods = "testCreateUser")
     public void testDeleteUser() {
-        User user = UserPayloads.newValidUser();
-        // Create user
-        given()
-            .baseUri(BASE_URI)
-            .contentType(ContentType.JSON)
-            .body(user)
-        .when()
-            .post("/user")
-        .then()
-            .statusCode(200);
-
-        // Delete user
-        int status =
-            given()
-                .baseUri(BASE_URI)
-            .when()
-                .delete("/user/" + user.getUsername())
-            .then()
-                .extract()
-                .statusCode();
-
-        Assert.assertEquals(status, 200, "Failed to delete user!");
+        Response res = UserEndPoints.deleteUser(username);
+        res.then().statusCode(200);
     }
 }

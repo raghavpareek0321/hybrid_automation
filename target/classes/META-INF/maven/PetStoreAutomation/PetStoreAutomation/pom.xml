@@ -25,10 +25,12 @@
         <poi.version>5.2.5</poi.version>
         <slf4j.version>2.0.9</slf4j.version>
         <logback.version>1.4.11</logback.version>
-        <extentreports.version>5.1.1</extentreports.version>
-        <extentreports.testng.adapter.version>1.0.6</extentreports.testng.adapter.version>
+        <extentreports.version>4.1.7</extentreports.version>
+        <extentreports.testng.adapter.version>1.0.7</extentreports.testng.adapter.version>
         <commons-io.version>2.12.0</commons-io.version>
         <log4j.version>2.20.0</log4j.version>
+        <jackson.version>2.17.1</jackson.version>
+        <wiremock.version>2.35.2</wiremock.version>
     </properties>
 
     <dependencies>
@@ -62,13 +64,12 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- ExtentReports -->
+        <!-- ExtentReports (STABLE versions) -->
         <dependency>
             <groupId>com.aventstack</groupId>
             <artifactId>extentreports</artifactId>
             <version>${extentreports.version}</version>
         </dependency>
-
         <dependency>
             <groupId>com.aventstack</groupId>
             <artifactId>extentreports-testng-adapter</artifactId>
@@ -85,6 +86,7 @@
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
             <version>${poi.version}</version>
+            <scope>test</scope>
         </dependency>
 
         <!-- Commons IO -->
@@ -139,6 +141,21 @@
             <groupId>com.github.javafaker</groupId>
             <artifactId>javafaker</artifactId>
             <version>1.0.2</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- Jackson Databind -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+
+        <!-- WireMock -->
+        <dependency>
+            <groupId>com.github.tomakehurst</groupId>
+            <artifactId>wiremock-jre8</artifactId>
+            <version>${wiremock.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>

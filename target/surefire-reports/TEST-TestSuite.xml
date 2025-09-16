@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="3.784" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="27.291" tests="19" errors="0" skipped="0" failures="10">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\Raghav_Pareek\Desktop\Hybrid_Automation\PetStoreAutomation\target\test-classes;C:\Users\Raghav_Pareek\Desktop\Hybrid_Automation\PetStoreAutomation\target\classes;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-java\4.15.0\selenium-java-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-api\4.15.0\selenium-api-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.15.0\selenium-chrome-driver-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.15.0\selenium-chromium-driver-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-json\4.15.0\selenium-json-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.15.0\selenium-manager-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.15.0\selenium-devtools-v117-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.15.0\selenium-devtools-v118-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.15.0\selenium-devtools-v119-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.15.0\selenium-devtools-v85-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.15.0\selenium-edge-driver-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.15.0\selenium-firefox-driver-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-http\4.15.0\selenium-http-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.15.0\selenium-ie-driver-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.15.0\selenium-remote-driver-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\Raghav_Pareek\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Raghav_Pareek\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Raghav_Pareek\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\Raghav_Pareek\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\Raghav_Pareek\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Raghav_Pareek\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-os\4.15.0\selenium-os-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.15.0\selenium-safari-driver-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-support\4.15.0\selenium-support-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.2\webdrivermanager-5.6.2.jar;C:\Users\Raghav_Pareek\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Raghav_Pareek\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\Raghav_Pareek\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\Raghav_Pareek\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\Raghav_Pareek\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Raghav_Pareek\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Raghav_Pareek\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Raghav_Pareek\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\Raghav_Pareek\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\Raghav_Pareek\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\Raghav_Pareek\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Raghav_Pareek\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\Raghav_Pareek\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\Raghav_Pareek\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\commons\commons-compress\1.24.0\commons-compress-1.24.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\Raghav_Pareek\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Raghav_Pareek\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Raghav_Pareek\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Raghav_Pareek\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Raghav_Pareek\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Raghav_Pareek\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\Raghav_Pareek\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\Raghav_Pareek\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\Raghav_Pareek\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Raghav_Pareek\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Raghav_Pareek\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Raghav_Pareek\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Raghav_Pareek\.m2\repository\com\aventstack\extentreports-testng-adapter\1.0.6\extentreports-testng-adapter-1.0.6.jar;C:\Users\Raghav_Pareek\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\Raghav_Pareek\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Raghav_Pareek\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\Raghav_Pareek\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Raghav_Pareek\.m2\repository\commons-io\commons-io\2.12.0\commons-io-2.12.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\jfree\jfreechart\1.5.3\jfreechart-1.5.3.jar;C:\Users\Raghav_Pareek\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\Raghav_Pareek\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\Raghav_Pareek\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\Raghav_Pareek\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\Raghav_Pareek\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Raghav_Pareek\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Raghav_Pareek\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="java.class.path" value="C:\Users\Raghav_Pareek\Desktop\Hybrid_Automation\PetStoreAutomation\target\test-classes;C:\Users\Raghav_Pareek\Desktop\Hybrid_Automation\PetStoreAutomation\target\classes;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-java\4.15.0\selenium-java-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-api\4.15.0\selenium-api-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.15.0\selenium-chrome-driver-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.15.0\selenium-chromium-driver-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-json\4.15.0\selenium-json-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.15.0\selenium-manager-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.15.0\selenium-devtools-v117-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.15.0\selenium-devtools-v118-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.15.0\selenium-devtools-v119-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.15.0\selenium-devtools-v85-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.15.0\selenium-edge-driver-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.15.0\selenium-firefox-driver-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-http\4.15.0\selenium-http-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.15.0\selenium-ie-driver-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.15.0\selenium-remote-driver-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Raghav_Pareek\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-os\4.15.0\selenium-os-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.15.0\selenium-safari-driver-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-support\4.15.0\selenium-support-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.2\webdrivermanager-5.6.2.jar;C:\Users\Raghav_Pareek\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Raghav_Pareek\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\Raghav_Pareek\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\Raghav_Pareek\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\Raghav_Pareek\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\Raghav_Pareek\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\Raghav_Pareek\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\Raghav_Pareek\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Raghav_Pareek\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\Raghav_Pareek\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\Raghav_Pareek\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\commons\commons-compress\1.24.0\commons-compress-1.24.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\Raghav_Pareek\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Raghav_Pareek\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Raghav_Pareek\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Raghav_Pareek\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Raghav_Pareek\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Raghav_Pareek\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\Raghav_Pareek\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\Raghav_Pareek\.m2\repository\com\aventstack\extentreports\4.1.7\extentreports-4.1.7.jar;C:\Users\Raghav_Pareek\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\Raghav_Pareek\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;C:\Users\Raghav_Pareek\.m2\repository\com\aventstack\extentreports-testng-adapter\1.0.7\extentreports-testng-adapter-1.0.7.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\Raghav_Pareek\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Raghav_Pareek\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\Raghav_Pareek\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Raghav_Pareek\.m2\repository\commons-io\commons-io\2.12.0\commons-io-2.12.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\jfree\jfreechart\1.5.3\jfreechart-1.5.3.jar;C:\Users\Raghav_Pareek\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\Raghav_Pareek\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\Raghav_Pareek\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\Raghav_Pareek\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\Raghav_Pareek\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Raghav_Pareek\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Raghav_Pareek\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Raghav_Pareek\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\Raghav_Pareek\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\Users\Raghav_Pareek\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;C:\Users\Raghav_Pareek\.m2\repository\com\github\tomakehurst\wiremock-jre8\2.35.2\wiremock-jre8-2.35.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\jetty-server\9.4.49.v20220914\jetty-server-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\jetty-http\9.4.49.v20220914\jetty-http-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\jetty-io\9.4.49.v20220914\jetty-io-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\jetty-servlet\9.4.49.v20220914\jetty-servlet-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\jetty-security\9.4.49.v20220914\jetty-security-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\jetty-util-ajax\9.4.49.v20220914\jetty-util-ajax-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\jetty-servlets\9.4.49.v20220914\jetty-servlets-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\jetty-continuation\9.4.49.v20220914\jetty-continuation-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\jetty-util\9.4.49.v20220914\jetty-util-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\jetty-webapp\9.4.49.v20220914\jetty-webapp-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.49.v20220914\jetty-xml-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\jetty-proxy\9.4.49.v20220914\jetty-proxy-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\jetty-client\9.4.49.v20220914\jetty-client-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\http2\http2-server\9.4.49.v20220914\http2-server-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\http2\http2-common\9.4.49.v20220914\http2-common-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\http2\http2-hpack\9.4.49.v20220914\http2-hpack-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\jetty-alpn-server\9.4.49.v20220914\jetty-alpn-server-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\jetty-alpn-java-server\9.4.49.v20220914\jetty-alpn-java-server-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\jetty-alpn-openjdk8-server\9.4.49.v20220914\jetty-alpn-openjdk8-server-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\jetty-alpn-java-client\9.4.49.v20220914\jetty-alpn-java-client-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\jetty-alpn-client\9.4.49.v20220914\jetty-alpn-client-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\jetty-alpn-openjdk8-client\9.4.49.v20220914\jetty-alpn-openjdk8-client-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Raghav_Pareek\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Raghav_Pareek\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Raghav_Pareek\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Raghav_Pareek\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Raghav_Pareek\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Raghav_Pareek\.m2\repository\org\xmlunit\xmlunit-core\2.9.0\xmlunit-core-2.9.0.jar;C:\Users\Raghav_Pareek\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Raghav_Pareek\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\xmlunit\xmlunit-legacy\2.9.0\xmlunit-legacy-2.9.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\xmlunit\xmlunit-placeholders\2.9.0\xmlunit-placeholders-2.9.0.jar;C:\Users\Raghav_Pareek\.m2\repository\net\javacrumbs\json-unit\json-unit-core\2.36.0\json-unit-core-2.36.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;C:\Users\Raghav_Pareek\.m2\repository\com\jayway\jsonpath\json-path\2.7.0\json-path-2.7.0.jar;C:\Users\Raghav_Pareek\.m2\repository\net\minidev\json-smart\2.4.7\json-smart-2.4.7.jar;C:\Users\Raghav_Pareek\.m2\repository\net\minidev\accessors-smart\2.4.7\accessors-smart-2.4.7.jar;C:\Users\Raghav_Pareek\.m2\repository\org\ow2\asm\asm\9.4\asm-9.4.jar;C:\Users\Raghav_Pareek\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Raghav_Pareek\.m2\repository\com\github\jknack\handlebars\4.3.1\handlebars-4.3.1.jar;C:\Users\Raghav_Pareek\.m2\repository\com\github\jknack\handlebars-helpers\4.3.1\handlebars-helpers-4.3.1.jar;C:\Users\Raghav_Pareek\.m2\repository\commons-fileupload\commons-fileupload\1.4\commons-fileupload-1.4.jar;"/>
     <property name="java.vm.vendor" value="Eclipse Adoptium"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="https://adoptium.net/"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
-    <property name="suiteXmlFile" value="testng.xml"/>
     <property name="os.name" value="Windows 11"/>
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\Raghav_Pareek\AppData\Local\Temp\surefire17237423004486228958\surefirebooter-20250911115933732_3.jar C:\Users\Raghav_Pareek\AppData\Local\Temp\surefire17237423004486228958 2025-09-11T11-59-33_221-jvmRun1 surefire-20250911115933732_1tmp surefire_0-20250911115933732_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Raghav_Pareek\AppData\Local\Temp\surefire238490452494462666\surefirebooter-20250916173521905_3.jar C:\Users\Raghav_Pareek\AppData\Local\Temp\surefire238490452494462666 2025-09-16T17-35-21_498-jvmRun1 surefire-20250916173521905_1tmp surefire_0-20250916173521905_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\Raghav_Pareek\Desktop\Hybrid_Automation\PetStoreAutomation\target\test-classes;C:\Users\Raghav_Pareek\Desktop\Hybrid_Automation\PetStoreAutomation\target\classes;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-java\4.15.0\selenium-java-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-api\4.15.0\selenium-api-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.15.0\selenium-chrome-driver-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.15.0\selenium-chromium-driver-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-json\4.15.0\selenium-json-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.15.0\selenium-manager-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.15.0\selenium-devtools-v117-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.15.0\selenium-devtools-v118-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.15.0\selenium-devtools-v119-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.15.0\selenium-devtools-v85-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.15.0\selenium-edge-driver-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.15.0\selenium-firefox-driver-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-http\4.15.0\selenium-http-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.15.0\selenium-ie-driver-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.15.0\selenium-remote-driver-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\Raghav_Pareek\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Raghav_Pareek\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Raghav_Pareek\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\Raghav_Pareek\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\Raghav_Pareek\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Raghav_Pareek\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-os\4.15.0\selenium-os-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.15.0\selenium-safari-driver-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-support\4.15.0\selenium-support-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.2\webdrivermanager-5.6.2.jar;C:\Users\Raghav_Pareek\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Raghav_Pareek\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\Raghav_Pareek\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\Raghav_Pareek\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\Raghav_Pareek\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Raghav_Pareek\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Raghav_Pareek\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Raghav_Pareek\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\Raghav_Pareek\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\Raghav_Pareek\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\Raghav_Pareek\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Raghav_Pareek\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\Raghav_Pareek\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\Raghav_Pareek\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\commons\commons-compress\1.24.0\commons-compress-1.24.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\Raghav_Pareek\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Raghav_Pareek\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Raghav_Pareek\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Raghav_Pareek\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Raghav_Pareek\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Raghav_Pareek\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\Raghav_Pareek\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\Raghav_Pareek\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\Raghav_Pareek\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Raghav_Pareek\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Raghav_Pareek\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Raghav_Pareek\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Raghav_Pareek\.m2\repository\com\aventstack\extentreports-testng-adapter\1.0.6\extentreports-testng-adapter-1.0.6.jar;C:\Users\Raghav_Pareek\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\Raghav_Pareek\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Raghav_Pareek\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\Raghav_Pareek\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Raghav_Pareek\.m2\repository\commons-io\commons-io\2.12.0\commons-io-2.12.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\jfree\jfreechart\1.5.3\jfreechart-1.5.3.jar;C:\Users\Raghav_Pareek\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\Raghav_Pareek\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\Raghav_Pareek\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\Raghav_Pareek\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\Raghav_Pareek\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Raghav_Pareek\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Raghav_Pareek\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\Raghav_Pareek\Desktop\Hybrid_Automation\PetStoreAutomation\target\test-classes;C:\Users\Raghav_Pareek\Desktop\Hybrid_Automation\PetStoreAutomation\target\classes;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-java\4.15.0\selenium-java-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-api\4.15.0\selenium-api-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.15.0\selenium-chrome-driver-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.15.0\selenium-chromium-driver-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-json\4.15.0\selenium-json-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.15.0\selenium-manager-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.15.0\selenium-devtools-v117-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.15.0\selenium-devtools-v118-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.15.0\selenium-devtools-v119-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.15.0\selenium-devtools-v85-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.15.0\selenium-edge-driver-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.15.0\selenium-firefox-driver-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-http\4.15.0\selenium-http-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.15.0\selenium-ie-driver-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.15.0\selenium-remote-driver-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Raghav_Pareek\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-os\4.15.0\selenium-os-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.15.0\selenium-safari-driver-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\seleniumhq\selenium\selenium-support\4.15.0\selenium-support-4.15.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.2\webdrivermanager-5.6.2.jar;C:\Users\Raghav_Pareek\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Raghav_Pareek\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\Raghav_Pareek\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\Raghav_Pareek\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\Raghav_Pareek\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\Raghav_Pareek\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\Raghav_Pareek\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\Raghav_Pareek\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Raghav_Pareek\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\Raghav_Pareek\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\Raghav_Pareek\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\commons\commons-compress\1.24.0\commons-compress-1.24.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\Raghav_Pareek\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Raghav_Pareek\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Raghav_Pareek\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Raghav_Pareek\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Raghav_Pareek\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Raghav_Pareek\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\Raghav_Pareek\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\Raghav_Pareek\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\Raghav_Pareek\.m2\repository\com\aventstack\extentreports\4.1.7\extentreports-4.1.7.jar;C:\Users\Raghav_Pareek\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\Raghav_Pareek\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;C:\Users\Raghav_Pareek\.m2\repository\com\aventstack\extentreports-testng-adapter\1.0.7\extentreports-testng-adapter-1.0.7.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\Raghav_Pareek\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Raghav_Pareek\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\Raghav_Pareek\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Raghav_Pareek\.m2\repository\commons-io\commons-io\2.12.0\commons-io-2.12.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\jfree\jfreechart\1.5.3\jfreechart-1.5.3.jar;C:\Users\Raghav_Pareek\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\Raghav_Pareek\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\Raghav_Pareek\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\Raghav_Pareek\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;C:\Users\Raghav_Pareek\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\Raghav_Pareek\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Raghav_Pareek\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Raghav_Pareek\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Raghav_Pareek\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\Raghav_Pareek\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\Users\Raghav_Pareek\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;C:\Users\Raghav_Pareek\.m2\repository\com\github\tomakehurst\wiremock-jre8\2.35.2\wiremock-jre8-2.35.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\jetty-server\9.4.49.v20220914\jetty-server-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\jetty-http\9.4.49.v20220914\jetty-http-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\jetty-io\9.4.49.v20220914\jetty-io-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\jetty-servlet\9.4.49.v20220914\jetty-servlet-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\jetty-security\9.4.49.v20220914\jetty-security-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\jetty-util-ajax\9.4.49.v20220914\jetty-util-ajax-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\jetty-servlets\9.4.49.v20220914\jetty-servlets-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\jetty-continuation\9.4.49.v20220914\jetty-continuation-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\jetty-util\9.4.49.v20220914\jetty-util-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\jetty-webapp\9.4.49.v20220914\jetty-webapp-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.49.v20220914\jetty-xml-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\jetty-proxy\9.4.49.v20220914\jetty-proxy-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\jetty-client\9.4.49.v20220914\jetty-client-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\http2\http2-server\9.4.49.v20220914\http2-server-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\http2\http2-common\9.4.49.v20220914\http2-common-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\http2\http2-hpack\9.4.49.v20220914\http2-hpack-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\jetty-alpn-server\9.4.49.v20220914\jetty-alpn-server-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\jetty-alpn-java-server\9.4.49.v20220914\jetty-alpn-java-server-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\jetty-alpn-openjdk8-server\9.4.49.v20220914\jetty-alpn-openjdk8-server-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\jetty-alpn-java-client\9.4.49.v20220914\jetty-alpn-java-client-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\jetty-alpn-client\9.4.49.v20220914\jetty-alpn-client-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\org\eclipse\jetty\jetty-alpn-openjdk8-client\9.4.49.v20220914\jetty-alpn-openjdk8-client-9.4.49.v20220914.jar;C:\Users\Raghav_Pareek\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Raghav_Pareek\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Raghav_Pareek\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Raghav_Pareek\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Raghav_Pareek\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Raghav_Pareek\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Raghav_Pareek\.m2\repository\org\xmlunit\xmlunit-core\2.9.0\xmlunit-core-2.9.0.jar;C:\Users\Raghav_Pareek\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Raghav_Pareek\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Raghav_Pareek\.m2\repository\org\xmlunit\xmlunit-legacy\2.9.0\xmlunit-legacy-2.9.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\xmlunit\xmlunit-placeholders\2.9.0\xmlunit-placeholders-2.9.0.jar;C:\Users\Raghav_Pareek\.m2\repository\net\javacrumbs\json-unit\json-unit-core\2.36.0\json-unit-core-2.36.0.jar;C:\Users\Raghav_Pareek\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;C:\Users\Raghav_Pareek\.m2\repository\com\jayway\jsonpath\json-path\2.7.0\json-path-2.7.0.jar;C:\Users\Raghav_Pareek\.m2\repository\net\minidev\json-smart\2.4.7\json-smart-2.4.7.jar;C:\Users\Raghav_Pareek\.m2\repository\net\minidev\accessors-smart\2.4.7\accessors-smart-2.4.7.jar;C:\Users\Raghav_Pareek\.m2\repository\org\ow2\asm\asm\9.4\asm-9.4.jar;C:\Users\Raghav_Pareek\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Raghav_Pareek\.m2\repository\com\github\jknack\handlebars\4.3.1\handlebars-4.3.1.jar;C:\Users\Raghav_Pareek\.m2\repository\com\github\jknack\handlebars-helpers\4.3.1\handlebars-helpers-4.3.1.jar;C:\Users\Raghav_Pareek\.m2\repository\commons-fileupload\commons-fileupload\1.4\commons-fileupload-1.4.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Raghav_Pareek"/>
     <property name="user.language" value="en"/>
@@ -31,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Raghav_Pareek\AppData\Local\Temp\surefire17237423004486228958\surefirebooter-20250911115933732_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Raghav_Pareek\AppData\Local\Temp\surefire238490452494462666\surefirebooter-20250916173521905_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.16+8"/>
@@ -59,13 +58,1294 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testCreateUser" classname="api.test.UserTests" time="0.028">
-    <system-out><![CDATA[11:59:34.865 [main] DEBUG org.testng.TestNG -- suiteXmlPath: "C:\Users\Raghav_Pareek\Desktop\Hybrid_Automation\PetStoreAutomation\testng.xml"
-Running Create User (smoke)
+  <testcase name="testCreateUserDD" classname="api.test.DDTests" time="1.794">
+    <failure message="java.lang.RuntimeException: Error initializing ExcelUtils with file: src/test/resources/TestData.xlsx" type="java.lang.RuntimeException"><![CDATA[java.lang.RuntimeException: java.lang.RuntimeException: Error initializing ExcelUtils with file: src/test/resources/TestData.xlsx
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:57)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:812)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:737)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:915)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.lang.RuntimeException: Error initializing ExcelUtils with file: src/test/resources/TestData.xlsx
+	at api.utilities.ExcelUtils.<init>(ExcelUtils.java:21)
+	at api.utilities.ExcelDataProviders.getUserData(ExcelDataProviders.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:53)
+	... 29 more
+Caused by: java.io.FileNotFoundException: src\test\resources\TestData.xlsx (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at api.utilities.ExcelUtils.<init>(ExcelUtils.java:17)
+	... 37 more
+]]></failure>
+    <system-out><![CDATA[17:35:23.213 [main] DEBUG org.testng.TestNG -- suiteXmlPath: "C:\Users\Raghav_Pareek\Desktop\Hybrid_Automation\PetStoreAutomation\testng.xml"
+===== Extent Report Initialized =====
 ]]></system-out>
   </testcase>
-  <testcase name="testDeleteUser" classname="api.test.UserTests" time="0.006">
-    <system-out><![CDATA[Running Delete User (smoke, delete)
+  <testcase name="testReadUserDD" classname="api.test.DDTests" time="1.8">
+    <failure message="java.lang.RuntimeException: Error initializing ExcelUtils with file: src/test/resources/TestData.xlsx" type="java.lang.RuntimeException"><![CDATA[java.lang.RuntimeException: java.lang.RuntimeException: Error initializing ExcelUtils with file: src/test/resources/TestData.xlsx
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:57)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:812)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:737)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:915)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.lang.RuntimeException: Error initializing ExcelUtils with file: src/test/resources/TestData.xlsx
+	at api.utilities.ExcelUtils.<init>(ExcelUtils.java:21)
+	at api.utilities.ExcelDataProviders.getUserData(ExcelDataProviders.java:11)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:53)
+	... 29 more
+Caused by: java.io.FileNotFoundException: src\test\resources\TestData.xlsx (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at api.utilities.ExcelUtils.<init>(ExcelUtils.java:17)
+	... 37 more
+]]></failure>
+  </testcase>
+  <testcase name="testISAEndpoints" classname="api.test.ISATests" time="1.81">
+    <failure message="&#10;Method public void api.test.ISATests.testISAEndpoints(java.lang.String,java.lang.String,int) requires a @DataProvider named : ISAData in class api.utilities.ExcelDataProviders" type="org.testng.TestNGException"><![CDATA[org.testng.TestNGException: 
+
+Method public void api.test.ISATests.testISAEndpoints(java.lang.String,java.lang.String,int) requires a @DataProvider named : ISAData in class api.utilities.ExcelDataProviders
+	at org.testng.internal.Parameters.findDataProvider(Parameters.java:535)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:772)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:737)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:915)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+  </testcase>
+  <testcase name="testCreatePayment" classname="api.test.PaymentTestsISA" time="7.15">
+    <failure message="expected [200] but found [404]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at org.testng.Assert.assertEquals(Assert.java:1429)
+	at api.test.PaymentTestsISA.testCreatePayment(PaymentTestsISA.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[17:35:29.733 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Get connection for route {s}->https://petstore.swagger.io:443
+17:35:29.855 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator -- Connecting to petstore.swagger.io:443
+17:35:31.357 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: ignoreCookies
+17:35:31.362 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+17:35:31.362 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication -- Target auth state: UNCHALLENGED
+17:35:31.366 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication -- Proxy auth state: UNCHALLENGED
+17:35:31.366 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Attempt 1 to execute request
+17:35:31.366 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Sending request: POST /v2/payment HTTP/1.1
+17:35:31.368 [main] DEBUG org.apache.http.wire --  >> "POST /v2/payment HTTP/1.1[\r][\n]"
+17:35:31.369 [main] DEBUG org.apache.http.wire --  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+17:35:31.372 [main] DEBUG org.apache.http.wire --  >> "Content-Type: application/json[\r][\n]"
+17:35:31.372 [main] DEBUG org.apache.http.wire --  >> "Content-Length: 68[\r][\n]"
+17:35:31.372 [main] DEBUG org.apache.http.wire --  >> "Host: petstore.swagger.io[\r][\n]"
+17:35:31.372 [main] DEBUG org.apache.http.wire --  >> "Connection: Keep-Alive[\r][\n]"
+17:35:31.374 [main] DEBUG org.apache.http.wire --  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.16)[\r][\n]"
+17:35:31.374 [main] DEBUG org.apache.http.wire --  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:35:31.374 [main] DEBUG org.apache.http.wire --  >> "[\r][\n]"
+17:35:31.374 [main] DEBUG org.apache.http.headers -- >> POST /v2/payment HTTP/1.1
+17:35:31.374 [main] DEBUG org.apache.http.headers -- >> Accept: application/json, application/javascript, text/javascript, text/json
+17:35:31.374 [main] DEBUG org.apache.http.headers -- >> Content-Type: application/json
+17:35:31.374 [main] DEBUG org.apache.http.headers -- >> Content-Length: 68
+17:35:31.374 [main] DEBUG org.apache.http.headers -- >> Host: petstore.swagger.io
+17:35:31.374 [main] DEBUG org.apache.http.headers -- >> Connection: Keep-Alive
+17:35:31.374 [main] DEBUG org.apache.http.headers -- >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.16)
+17:35:31.374 [main] DEBUG org.apache.http.headers -- >> Accept-Encoding: gzip,deflate
+17:35:31.374 [main] DEBUG org.apache.http.wire --  >> "{"paymentId":501,"amount":100.5,"currency":"USD","status":"PENDING"}"
+17:35:31.678 [main] DEBUG org.apache.http.wire --  << "HTTP/1.1 404 Not Found[\r][\n]"
+17:35:31.682 [main] DEBUG org.apache.http.wire --  << "Date: Tue, 16 Sep 2025 12:05:31 GMT[\r][\n]"
+17:35:31.684 [main] DEBUG org.apache.http.wire --  << "Content-Type: application/json[\r][\n]"
+17:35:31.684 [main] DEBUG org.apache.http.wire --  << "Transfer-Encoding: chunked[\r][\n]"
+17:35:31.684 [main] DEBUG org.apache.http.wire --  << "Connection: keep-alive[\r][\n]"
+17:35:31.684 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Origin: *[\r][\n]"
+17:35:31.684 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+17:35:31.684 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+17:35:31.686 [main] DEBUG org.apache.http.wire --  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+17:35:31.686 [main] DEBUG org.apache.http.wire --  << "[\r][\n]"
+17:35:31.686 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Receiving response: HTTP/1.1 404 Not Found
+17:35:31.686 [main] DEBUG org.apache.http.headers -- << HTTP/1.1 404 Not Found
+17:35:31.686 [main] DEBUG org.apache.http.headers -- << Date: Tue, 16 Sep 2025 12:05:31 GMT
+17:35:31.686 [main] DEBUG org.apache.http.headers -- << Content-Type: application/json
+17:35:31.686 [main] DEBUG org.apache.http.headers -- << Transfer-Encoding: chunked
+17:35:31.686 [main] DEBUG org.apache.http.headers -- << Connection: keep-alive
+17:35:31.686 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Origin: *
+17:35:31.688 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+17:35:31.688 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+17:35:31.688 [main] DEBUG org.apache.http.headers -- << Server: Jetty(9.2.9.v20150224)
+17:35:31.694 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Connection can be kept alive indefinitely
+17:35:31.704 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsing response as: application/json
+17:35:31.708 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+]]></system-out>
+  </testcase>
+  <testcase name="testGetPayment" classname="api.test.PaymentTestsISA" time="1.304">
+    <failure message="expected [200] but found [404]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at org.testng.Assert.assertEquals(Assert.java:1429)
+	at api.test.PaymentTestsISA.testGetPayment(PaymentTestsISA.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[17:35:31.942 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Get connection for route {s}->https://petstore.swagger.io:443
+17:35:31.942 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator -- Connecting to petstore.swagger.io:443
+17:35:32.797 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: ignoreCookies
+17:35:32.806 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+17:35:32.806 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication -- Target auth state: UNCHALLENGED
+17:35:32.806 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication -- Proxy auth state: UNCHALLENGED
+17:35:32.806 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Attempt 1 to execute request
+17:35:32.806 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Sending request: GET /v2/payment/501 HTTP/1.1
+17:35:32.806 [main] DEBUG org.apache.http.wire --  >> "GET /v2/payment/501 HTTP/1.1[\r][\n]"
+17:35:32.806 [main] DEBUG org.apache.http.wire --  >> "Accept: */*[\r][\n]"
+17:35:32.806 [main] DEBUG org.apache.http.wire --  >> "Host: petstore.swagger.io[\r][\n]"
+17:35:32.806 [main] DEBUG org.apache.http.wire --  >> "Connection: Keep-Alive[\r][\n]"
+17:35:32.806 [main] DEBUG org.apache.http.wire --  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.16)[\r][\n]"
+17:35:32.806 [main] DEBUG org.apache.http.wire --  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:35:32.806 [main] DEBUG org.apache.http.wire --  >> "[\r][\n]"
+17:35:32.806 [main] DEBUG org.apache.http.headers -- >> GET /v2/payment/501 HTTP/1.1
+17:35:32.806 [main] DEBUG org.apache.http.headers -- >> Accept: */*
+17:35:32.806 [main] DEBUG org.apache.http.headers -- >> Host: petstore.swagger.io
+17:35:32.806 [main] DEBUG org.apache.http.headers -- >> Connection: Keep-Alive
+17:35:32.806 [main] DEBUG org.apache.http.headers -- >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.16)
+17:35:32.806 [main] DEBUG org.apache.http.headers -- >> Accept-Encoding: gzip,deflate
+17:35:33.114 [main] DEBUG org.apache.http.wire --  << "HTTP/1.1 404 Not Found[\r][\n]"
+17:35:33.114 [main] DEBUG org.apache.http.wire --  << "Date: Tue, 16 Sep 2025 12:05:32 GMT[\r][\n]"
+17:35:33.114 [main] DEBUG org.apache.http.wire --  << "Content-Type: application/xml[\r][\n]"
+17:35:33.114 [main] DEBUG org.apache.http.wire --  << "Content-Length: 176[\r][\n]"
+17:35:33.114 [main] DEBUG org.apache.http.wire --  << "Connection: keep-alive[\r][\n]"
+17:35:33.114 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Origin: *[\r][\n]"
+17:35:33.114 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+17:35:33.114 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+17:35:33.114 [main] DEBUG org.apache.http.wire --  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+17:35:33.114 [main] DEBUG org.apache.http.wire --  << "[\r][\n]"
+17:35:33.114 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Receiving response: HTTP/1.1 404 Not Found
+17:35:33.116 [main] DEBUG org.apache.http.headers -- << HTTP/1.1 404 Not Found
+17:35:33.116 [main] DEBUG org.apache.http.headers -- << Date: Tue, 16 Sep 2025 12:05:32 GMT
+17:35:33.116 [main] DEBUG org.apache.http.headers -- << Content-Type: application/xml
+17:35:33.116 [main] DEBUG org.apache.http.headers -- << Content-Length: 176
+17:35:33.116 [main] DEBUG org.apache.http.headers -- << Connection: keep-alive
+17:35:33.116 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Origin: *
+17:35:33.116 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+17:35:33.116 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+17:35:33.116 [main] DEBUG org.apache.http.headers -- << Server: Jetty(9.2.9.v20150224)
+17:35:33.116 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Connection can be kept alive indefinitely
+17:35:33.116 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsing response as: application/xml
+17:35:33.116 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdatePayment" classname="api.test.PaymentTestsISA" time="1.224">
+    <failure message="expected [200] but found [404]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at org.testng.Assert.assertEquals(Assert.java:1429)
+	at api.test.PaymentTestsISA.testUpdatePayment(PaymentTestsISA.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[17:35:33.176 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Get connection for route {s}->https://petstore.swagger.io:443
+17:35:33.176 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator -- Connecting to petstore.swagger.io:443
+17:35:34.036 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: ignoreCookies
+17:35:34.036 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+17:35:34.036 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication -- Target auth state: UNCHALLENGED
+17:35:34.036 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication -- Proxy auth state: UNCHALLENGED
+17:35:34.036 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Attempt 1 to execute request
+17:35:34.036 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Sending request: PUT /v2/payment/501 HTTP/1.1
+17:35:34.036 [main] DEBUG org.apache.http.wire --  >> "PUT /v2/payment/501 HTTP/1.1[\r][\n]"
+17:35:34.036 [main] DEBUG org.apache.http.wire --  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+17:35:34.036 [main] DEBUG org.apache.http.wire --  >> "Content-Type: application/json[\r][\n]"
+17:35:34.038 [main] DEBUG org.apache.http.wire --  >> "Content-Length: 71[\r][\n]"
+17:35:34.038 [main] DEBUG org.apache.http.wire --  >> "Host: petstore.swagger.io[\r][\n]"
+17:35:34.038 [main] DEBUG org.apache.http.wire --  >> "Connection: Keep-Alive[\r][\n]"
+17:35:34.038 [main] DEBUG org.apache.http.wire --  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.16)[\r][\n]"
+17:35:34.038 [main] DEBUG org.apache.http.wire --  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:35:34.038 [main] DEBUG org.apache.http.wire --  >> "[\r][\n]"
+17:35:34.038 [main] DEBUG org.apache.http.headers -- >> PUT /v2/payment/501 HTTP/1.1
+17:35:34.038 [main] DEBUG org.apache.http.headers -- >> Accept: application/json, application/javascript, text/javascript, text/json
+17:35:34.038 [main] DEBUG org.apache.http.headers -- >> Content-Type: application/json
+17:35:34.038 [main] DEBUG org.apache.http.headers -- >> Content-Length: 71
+17:35:34.038 [main] DEBUG org.apache.http.headers -- >> Host: petstore.swagger.io
+17:35:34.038 [main] DEBUG org.apache.http.headers -- >> Connection: Keep-Alive
+17:35:34.038 [main] DEBUG org.apache.http.headers -- >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.16)
+17:35:34.038 [main] DEBUG org.apache.http.headers -- >> Accept-Encoding: gzip,deflate
+17:35:34.038 [main] DEBUG org.apache.http.wire --  >> "{"paymentId":501,"amount":150.75,"currency":"USD","status":"COMPLETED"}"
+17:35:34.339 [main] DEBUG org.apache.http.wire --  << "HTTP/1.1 404 Not Found[\r][\n]"
+17:35:34.339 [main] DEBUG org.apache.http.wire --  << "Date: Tue, 16 Sep 2025 12:05:34 GMT[\r][\n]"
+17:35:34.347 [main] DEBUG org.apache.http.wire --  << "Content-Type: application/json[\r][\n]"
+17:35:34.348 [main] DEBUG org.apache.http.wire --  << "Transfer-Encoding: chunked[\r][\n]"
+17:35:34.348 [main] DEBUG org.apache.http.wire --  << "Connection: keep-alive[\r][\n]"
+17:35:34.348 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Origin: *[\r][\n]"
+17:35:34.349 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+17:35:34.349 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+17:35:34.349 [main] DEBUG org.apache.http.wire --  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+17:35:34.349 [main] DEBUG org.apache.http.wire --  << "[\r][\n]"
+17:35:34.349 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Receiving response: HTTP/1.1 404 Not Found
+17:35:34.349 [main] DEBUG org.apache.http.headers -- << HTTP/1.1 404 Not Found
+17:35:34.349 [main] DEBUG org.apache.http.headers -- << Date: Tue, 16 Sep 2025 12:05:34 GMT
+17:35:34.349 [main] DEBUG org.apache.http.headers -- << Content-Type: application/json
+17:35:34.349 [main] DEBUG org.apache.http.headers -- << Transfer-Encoding: chunked
+17:35:34.349 [main] DEBUG org.apache.http.headers -- << Connection: keep-alive
+17:35:34.349 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Origin: *
+17:35:34.349 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+17:35:34.349 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+17:35:34.349 [main] DEBUG org.apache.http.headers -- << Server: Jetty(9.2.9.v20150224)
+17:35:34.349 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Connection can be kept alive indefinitely
+17:35:34.349 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsing response as: application/json
+17:35:34.349 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+]]></system-out>
+  </testcase>
+  <testcase name="testDeletePayment" classname="api.test.PaymentTestsISA" time="1.325">
+    <failure message="expected [200] but found [404]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at org.testng.Assert.assertEquals(Assert.java:1429)
+	at api.test.PaymentTestsISA.testDeletePayment(PaymentTestsISA.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[17:35:34.411 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Get connection for route {s}->https://petstore.swagger.io:443
+17:35:34.411 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator -- Connecting to petstore.swagger.io:443
+17:35:35.362 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: ignoreCookies
+17:35:35.362 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+17:35:35.362 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication -- Target auth state: UNCHALLENGED
+17:35:35.362 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication -- Proxy auth state: UNCHALLENGED
+17:35:35.362 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Attempt 1 to execute request
+17:35:35.362 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Sending request: DELETE /v2/payment/501 HTTP/1.1
+17:35:35.362 [main] DEBUG org.apache.http.wire --  >> "DELETE /v2/payment/501 HTTP/1.1[\r][\n]"
+17:35:35.362 [main] DEBUG org.apache.http.wire --  >> "Accept: */*[\r][\n]"
+17:35:35.362 [main] DEBUG org.apache.http.wire --  >> "Host: petstore.swagger.io[\r][\n]"
+17:35:35.362 [main] DEBUG org.apache.http.wire --  >> "Connection: Keep-Alive[\r][\n]"
+17:35:35.362 [main] DEBUG org.apache.http.wire --  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.16)[\r][\n]"
+17:35:35.362 [main] DEBUG org.apache.http.wire --  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:35:35.362 [main] DEBUG org.apache.http.wire --  >> "[\r][\n]"
+17:35:35.362 [main] DEBUG org.apache.http.headers -- >> DELETE /v2/payment/501 HTTP/1.1
+17:35:35.362 [main] DEBUG org.apache.http.headers -- >> Accept: */*
+17:35:35.362 [main] DEBUG org.apache.http.headers -- >> Host: petstore.swagger.io
+17:35:35.362 [main] DEBUG org.apache.http.headers -- >> Connection: Keep-Alive
+17:35:35.362 [main] DEBUG org.apache.http.headers -- >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.16)
+17:35:35.362 [main] DEBUG org.apache.http.headers -- >> Accept-Encoding: gzip,deflate
+17:35:35.663 [main] DEBUG org.apache.http.wire --  << "HTTP/1.1 404 Not Found[\r][\n]"
+17:35:35.663 [main] DEBUG org.apache.http.wire --  << "Date: Tue, 16 Sep 2025 12:05:35 GMT[\r][\n]"
+17:35:35.663 [main] DEBUG org.apache.http.wire --  << "Content-Type: application/xml[\r][\n]"
+17:35:35.663 [main] DEBUG org.apache.http.wire --  << "Content-Length: 176[\r][\n]"
+17:35:35.663 [main] DEBUG org.apache.http.wire --  << "Connection: keep-alive[\r][\n]"
+17:35:35.663 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Origin: *[\r][\n]"
+17:35:35.663 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+17:35:35.663 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+17:35:35.663 [main] DEBUG org.apache.http.wire --  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+17:35:35.663 [main] DEBUG org.apache.http.wire --  << "[\r][\n]"
+17:35:35.663 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Receiving response: HTTP/1.1 404 Not Found
+17:35:35.663 [main] DEBUG org.apache.http.headers -- << HTTP/1.1 404 Not Found
+17:35:35.663 [main] DEBUG org.apache.http.headers -- << Date: Tue, 16 Sep 2025 12:05:35 GMT
+17:35:35.663 [main] DEBUG org.apache.http.headers -- << Content-Type: application/xml
+17:35:35.663 [main] DEBUG org.apache.http.headers -- << Content-Length: 176
+17:35:35.663 [main] DEBUG org.apache.http.headers -- << Connection: keep-alive
+17:35:35.663 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Origin: *
+17:35:35.663 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+17:35:35.672 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+17:35:35.672 [main] DEBUG org.apache.http.headers -- << Server: Jetty(9.2.9.v20150224)
+17:35:35.672 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Connection can be kept alive indefinitely
+17:35:35.672 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsing response as: application/xml
+17:35:35.672 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateUser" classname="api.test.UserTests" time="1.357">
+    <system-out><![CDATA[17:35:35.745 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Get connection for route {s}->https://petstore.swagger.io:443
+17:35:35.747 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator -- Connecting to petstore.swagger.io:443
+17:35:36.691 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: ignoreCookies
+17:35:36.691 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+17:35:36.691 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication -- Target auth state: UNCHALLENGED
+17:35:36.691 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication -- Proxy auth state: UNCHALLENGED
+17:35:36.691 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Attempt 1 to execute request
+17:35:36.691 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Sending request: POST /v2/user HTTP/1.1
+17:35:36.691 [main] DEBUG org.apache.http.wire --  >> "POST /v2/user HTTP/1.1[\r][\n]"
+17:35:36.691 [main] DEBUG org.apache.http.wire --  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+17:35:36.691 [main] DEBUG org.apache.http.wire --  >> "Content-Type: application/json[\r][\n]"
+17:35:36.691 [main] DEBUG org.apache.http.wire --  >> "Content-Length: 179[\r][\n]"
+17:35:36.691 [main] DEBUG org.apache.http.wire --  >> "Host: petstore.swagger.io[\r][\n]"
+17:35:36.691 [main] DEBUG org.apache.http.wire --  >> "Connection: Keep-Alive[\r][\n]"
+17:35:36.691 [main] DEBUG org.apache.http.wire --  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.16)[\r][\n]"
+17:35:36.691 [main] DEBUG org.apache.http.wire --  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:35:36.691 [main] DEBUG org.apache.http.wire --  >> "[\r][\n]"
+17:35:36.705 [main] DEBUG org.apache.http.headers -- >> POST /v2/user HTTP/1.1
+17:35:36.705 [main] DEBUG org.apache.http.headers -- >> Accept: application/json, application/javascript, text/javascript, text/json
+17:35:36.705 [main] DEBUG org.apache.http.headers -- >> Content-Type: application/json
+17:35:36.705 [main] DEBUG org.apache.http.headers -- >> Content-Length: 179
+17:35:36.705 [main] DEBUG org.apache.http.headers -- >> Host: petstore.swagger.io
+17:35:36.705 [main] DEBUG org.apache.http.headers -- >> Connection: Keep-Alive
+17:35:36.705 [main] DEBUG org.apache.http.headers -- >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.16)
+17:35:36.705 [main] DEBUG org.apache.http.headers -- >> Accept-Encoding: gzip,deflate
+17:35:36.706 [main] DEBUG org.apache.http.wire --  >> "{"id":335691,"username":"user_tests_1758024335691","firstName":"John","lastName":"Doe","email":"john.doe+1758024335691@example.com","password":"Password123!","phone":"9876543210"}"
+17:35:37.004 [main] DEBUG org.apache.http.wire --  << "HTTP/1.1 200 OK[\r][\n]"
+17:35:37.005 [main] DEBUG org.apache.http.wire --  << "Date: Tue, 16 Sep 2025 12:05:36 GMT[\r][\n]"
+17:35:37.006 [main] DEBUG org.apache.http.wire --  << "Content-Type: application/json[\r][\n]"
+17:35:37.006 [main] DEBUG org.apache.http.wire --  << "Transfer-Encoding: chunked[\r][\n]"
+17:35:37.006 [main] DEBUG org.apache.http.wire --  << "Connection: keep-alive[\r][\n]"
+17:35:37.006 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Origin: *[\r][\n]"
+17:35:37.006 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+17:35:37.006 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+17:35:37.006 [main] DEBUG org.apache.http.wire --  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+17:35:37.006 [main] DEBUG org.apache.http.wire --  << "[\r][\n]"
+17:35:37.006 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Receiving response: HTTP/1.1 200 OK
+17:35:37.006 [main] DEBUG org.apache.http.headers -- << HTTP/1.1 200 OK
+17:35:37.006 [main] DEBUG org.apache.http.headers -- << Date: Tue, 16 Sep 2025 12:05:36 GMT
+17:35:37.006 [main] DEBUG org.apache.http.headers -- << Content-Type: application/json
+17:35:37.006 [main] DEBUG org.apache.http.headers -- << Transfer-Encoding: chunked
+17:35:37.006 [main] DEBUG org.apache.http.headers -- << Connection: keep-alive
+17:35:37.006 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Origin: *
+17:35:37.006 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+17:35:37.006 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+17:35:37.006 [main] DEBUG org.apache.http.headers -- << Server: Jetty(9.2.9.v20150224)
+17:35:37.006 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Connection can be kept alive indefinitely
+17:35:37.006 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsing response as: application/json
+17:35:37.006 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUser" classname="api.test.UserTests" time="1.407">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at api.test.UserTests.testGetUser(UserTests.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[17:35:37.093 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Get connection for route {s}->https://petstore.swagger.io:443
+17:35:37.093 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator -- Connecting to petstore.swagger.io:443
+17:35:38.104 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: ignoreCookies
+17:35:38.104 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+17:35:38.104 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication -- Target auth state: UNCHALLENGED
+17:35:38.104 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication -- Proxy auth state: UNCHALLENGED
+17:35:38.104 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Attempt 1 to execute request
+17:35:38.104 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Sending request: GET /v2/user/user_tests_1758024335691 HTTP/1.1
+17:35:38.104 [main] DEBUG org.apache.http.wire --  >> "GET /v2/user/user_tests_1758024335691 HTTP/1.1[\r][\n]"
+17:35:38.104 [main] DEBUG org.apache.http.wire --  >> "Accept: */*[\r][\n]"
+17:35:38.104 [main] DEBUG org.apache.http.wire --  >> "Host: petstore.swagger.io[\r][\n]"
+17:35:38.104 [main] DEBUG org.apache.http.wire --  >> "Connection: Keep-Alive[\r][\n]"
+17:35:38.104 [main] DEBUG org.apache.http.wire --  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.16)[\r][\n]"
+17:35:38.104 [main] DEBUG org.apache.http.wire --  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:35:38.104 [main] DEBUG org.apache.http.wire --  >> "[\r][\n]"
+17:35:38.104 [main] DEBUG org.apache.http.headers -- >> GET /v2/user/user_tests_1758024335691 HTTP/1.1
+17:35:38.104 [main] DEBUG org.apache.http.headers -- >> Accept: */*
+17:35:38.104 [main] DEBUG org.apache.http.headers -- >> Host: petstore.swagger.io
+17:35:38.104 [main] DEBUG org.apache.http.headers -- >> Connection: Keep-Alive
+17:35:38.104 [main] DEBUG org.apache.http.headers -- >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.16)
+17:35:38.108 [main] DEBUG org.apache.http.headers -- >> Accept-Encoding: gzip,deflate
+17:35:38.416 [main] DEBUG org.apache.http.wire --  << "HTTP/1.1 404 Not Found[\r][\n]"
+17:35:38.416 [main] DEBUG org.apache.http.wire --  << "Date: Tue, 16 Sep 2025 12:05:38 GMT[\r][\n]"
+17:35:38.416 [main] DEBUG org.apache.http.wire --  << "Content-Type: application/json[\r][\n]"
+17:35:38.416 [main] DEBUG org.apache.http.wire --  << "Transfer-Encoding: chunked[\r][\n]"
+17:35:38.416 [main] DEBUG org.apache.http.wire --  << "Connection: keep-alive[\r][\n]"
+17:35:38.416 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Origin: *[\r][\n]"
+17:35:38.416 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+17:35:38.416 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+17:35:38.416 [main] DEBUG org.apache.http.wire --  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+17:35:38.416 [main] DEBUG org.apache.http.wire --  << "[\r][\n]"
+17:35:38.418 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Receiving response: HTTP/1.1 404 Not Found
+17:35:38.418 [main] DEBUG org.apache.http.headers -- << HTTP/1.1 404 Not Found
+17:35:38.418 [main] DEBUG org.apache.http.headers -- << Date: Tue, 16 Sep 2025 12:05:38 GMT
+17:35:38.418 [main] DEBUG org.apache.http.headers -- << Content-Type: application/json
+17:35:38.418 [main] DEBUG org.apache.http.headers -- << Transfer-Encoding: chunked
+17:35:38.418 [main] DEBUG org.apache.http.headers -- << Connection: keep-alive
+17:35:38.418 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Origin: *
+17:35:38.418 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+17:35:38.418 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+17:35:38.418 [main] DEBUG org.apache.http.headers -- << Server: Jetty(9.2.9.v20150224)
+17:35:38.418 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Connection can be kept alive indefinitely
+17:35:38.418 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsing response as: application/json
+17:35:38.418 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser" classname="api.test.UserTests" time="1.071">
+    <system-out><![CDATA[17:35:38.509 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Get connection for route {s}->https://petstore.swagger.io:443
+17:35:38.509 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator -- Connecting to petstore.swagger.io:443
+17:35:39.283 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: ignoreCookies
+17:35:39.283 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+17:35:39.283 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication -- Target auth state: UNCHALLENGED
+17:35:39.283 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication -- Proxy auth state: UNCHALLENGED
+17:35:39.283 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Attempt 1 to execute request
+17:35:39.283 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Sending request: PUT /v2/user/user_tests_1758024335691 HTTP/1.1
+17:35:39.283 [main] DEBUG org.apache.http.wire --  >> "PUT /v2/user/user_tests_1758024335691 HTTP/1.1[\r][\n]"
+17:35:39.285 [main] DEBUG org.apache.http.wire --  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+17:35:39.285 [main] DEBUG org.apache.http.wire --  >> "Content-Type: application/json[\r][\n]"
+17:35:39.285 [main] DEBUG org.apache.http.wire --  >> "Content-Length: 181[\r][\n]"
+17:35:39.285 [main] DEBUG org.apache.http.wire --  >> "Host: petstore.swagger.io[\r][\n]"
+17:35:39.285 [main] DEBUG org.apache.http.wire --  >> "Connection: Keep-Alive[\r][\n]"
+17:35:39.285 [main] DEBUG org.apache.http.wire --  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.16)[\r][\n]"
+17:35:39.285 [main] DEBUG org.apache.http.wire --  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:35:39.285 [main] DEBUG org.apache.http.wire --  >> "[\r][\n]"
+17:35:39.285 [main] DEBUG org.apache.http.headers -- >> PUT /v2/user/user_tests_1758024335691 HTTP/1.1
+17:35:39.285 [main] DEBUG org.apache.http.headers -- >> Accept: application/json, application/javascript, text/javascript, text/json
+17:35:39.285 [main] DEBUG org.apache.http.headers -- >> Content-Type: application/json
+17:35:39.285 [main] DEBUG org.apache.http.headers -- >> Content-Length: 181
+17:35:39.285 [main] DEBUG org.apache.http.headers -- >> Host: petstore.swagger.io
+17:35:39.285 [main] DEBUG org.apache.http.headers -- >> Connection: Keep-Alive
+17:35:39.285 [main] DEBUG org.apache.http.headers -- >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.16)
+17:35:39.285 [main] DEBUG org.apache.http.headers -- >> Accept-Encoding: gzip,deflate
+17:35:39.285 [main] DEBUG org.apache.http.wire --  >> "{"id":335691,"username":"user_tests_1758024335691","firstName":"Johnny","lastName":"Doe","email":"john.doe+1758024335691@example.com","password":"Password123!","phone":"9876543210"}"
+17:35:39.521 [main] DEBUG org.apache.http.wire --  << "HTTP/1.1 200 OK[\r][\n]"
+17:35:39.521 [main] DEBUG org.apache.http.wire --  << "Date: Tue, 16 Sep 2025 12:05:39 GMT[\r][\n]"
+17:35:39.521 [main] DEBUG org.apache.http.wire --  << "Content-Type: application/json[\r][\n]"
+17:35:39.521 [main] DEBUG org.apache.http.wire --  << "Transfer-Encoding: chunked[\r][\n]"
+17:35:39.533 [main] DEBUG org.apache.http.wire --  << "Connection: keep-alive[\r][\n]"
+17:35:39.533 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Origin: *[\r][\n]"
+17:35:39.533 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+17:35:39.533 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+17:35:39.533 [main] DEBUG org.apache.http.wire --  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+17:35:39.533 [main] DEBUG org.apache.http.wire --  << "[\r][\n]"
+17:35:39.533 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Receiving response: HTTP/1.1 200 OK
+17:35:39.533 [main] DEBUG org.apache.http.headers -- << HTTP/1.1 200 OK
+17:35:39.533 [main] DEBUG org.apache.http.headers -- << Date: Tue, 16 Sep 2025 12:05:39 GMT
+17:35:39.533 [main] DEBUG org.apache.http.headers -- << Content-Type: application/json
+17:35:39.533 [main] DEBUG org.apache.http.headers -- << Transfer-Encoding: chunked
+17:35:39.533 [main] DEBUG org.apache.http.headers -- << Connection: keep-alive
+17:35:39.533 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Origin: *
+17:35:39.533 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+17:35:39.533 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+17:35:39.533 [main] DEBUG org.apache.http.headers -- << Server: Jetty(9.2.9.v20150224)
+17:35:39.533 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Connection can be kept alive indefinitely
+17:35:39.533 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsing response as: application/json
+17:35:39.533 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteUser" classname="api.test.UserTests" time="1.075">
+    <system-out><![CDATA[17:35:39.568 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Get connection for route {s}->https://petstore.swagger.io:443
+17:35:39.569 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator -- Connecting to petstore.swagger.io:443
+17:35:40.365 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: ignoreCookies
+17:35:40.367 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+17:35:40.367 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication -- Target auth state: UNCHALLENGED
+17:35:40.367 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication -- Proxy auth state: UNCHALLENGED
+17:35:40.367 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Attempt 1 to execute request
+17:35:40.367 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Sending request: DELETE /v2/user/user_tests_1758024335691 HTTP/1.1
+17:35:40.367 [main] DEBUG org.apache.http.wire --  >> "DELETE /v2/user/user_tests_1758024335691 HTTP/1.1[\r][\n]"
+17:35:40.367 [main] DEBUG org.apache.http.wire --  >> "Accept: */*[\r][\n]"
+17:35:40.367 [main] DEBUG org.apache.http.wire --  >> "Host: petstore.swagger.io[\r][\n]"
+17:35:40.367 [main] DEBUG org.apache.http.wire --  >> "Connection: Keep-Alive[\r][\n]"
+17:35:40.367 [main] DEBUG org.apache.http.wire --  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.16)[\r][\n]"
+17:35:40.367 [main] DEBUG org.apache.http.wire --  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:35:40.367 [main] DEBUG org.apache.http.wire --  >> "[\r][\n]"
+17:35:40.367 [main] DEBUG org.apache.http.headers -- >> DELETE /v2/user/user_tests_1758024335691 HTTP/1.1
+17:35:40.367 [main] DEBUG org.apache.http.headers -- >> Accept: */*
+17:35:40.367 [main] DEBUG org.apache.http.headers -- >> Host: petstore.swagger.io
+17:35:40.367 [main] DEBUG org.apache.http.headers -- >> Connection: Keep-Alive
+17:35:40.367 [main] DEBUG org.apache.http.headers -- >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.16)
+17:35:40.367 [main] DEBUG org.apache.http.headers -- >> Accept-Encoding: gzip,deflate
+17:35:40.600 [main] DEBUG org.apache.http.wire --  << "HTTP/1.1 200 OK[\r][\n]"
+17:35:40.600 [main] DEBUG org.apache.http.wire --  << "Date: Tue, 16 Sep 2025 12:05:40 GMT[\r][\n]"
+17:35:40.600 [main] DEBUG org.apache.http.wire --  << "Content-Type: application/json[\r][\n]"
+17:35:40.600 [main] DEBUG org.apache.http.wire --  << "Transfer-Encoding: chunked[\r][\n]"
+17:35:40.600 [main] DEBUG org.apache.http.wire --  << "Connection: keep-alive[\r][\n]"
+17:35:40.600 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Origin: *[\r][\n]"
+17:35:40.612 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+17:35:40.612 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+17:35:40.612 [main] DEBUG org.apache.http.wire --  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+17:35:40.612 [main] DEBUG org.apache.http.wire --  << "[\r][\n]"
+17:35:40.612 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Receiving response: HTTP/1.1 200 OK
+17:35:40.612 [main] DEBUG org.apache.http.headers -- << HTTP/1.1 200 OK
+17:35:40.612 [main] DEBUG org.apache.http.headers -- << Date: Tue, 16 Sep 2025 12:05:40 GMT
+17:35:40.612 [main] DEBUG org.apache.http.headers -- << Content-Type: application/json
+17:35:40.612 [main] DEBUG org.apache.http.headers -- << Transfer-Encoding: chunked
+17:35:40.612 [main] DEBUG org.apache.http.headers -- << Connection: keep-alive
+17:35:40.612 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Origin: *
+17:35:40.612 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+17:35:40.612 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+17:35:40.612 [main] DEBUG org.apache.http.headers -- << Server: Jetty(9.2.9.v20150224)
+17:35:40.612 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Connection can be kept alive indefinitely
+17:35:40.612 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsing response as: application/json
+17:35:40.612 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateUser" classname="api.test.UserTests2" time="1.054">
+    <system-out><![CDATA[17:35:40.647 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Get connection for route {s}->https://petstore.swagger.io:443
+17:35:40.647 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator -- Connecting to petstore.swagger.io:443
+17:35:41.415 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: ignoreCookies
+17:35:41.417 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+17:35:41.417 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication -- Target auth state: UNCHALLENGED
+17:35:41.417 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication -- Proxy auth state: UNCHALLENGED
+17:35:41.417 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Attempt 1 to execute request
+17:35:41.417 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Sending request: POST /v2/user HTTP/1.1
+17:35:41.417 [main] DEBUG org.apache.http.wire --  >> "POST /v2/user HTTP/1.1[\r][\n]"
+17:35:41.417 [main] DEBUG org.apache.http.wire --  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+17:35:41.417 [main] DEBUG org.apache.http.wire --  >> "Content-Type: application/json[\r][\n]"
+17:35:41.417 [main] DEBUG org.apache.http.wire --  >> "Content-Length: 184[\r][\n]"
+17:35:41.417 [main] DEBUG org.apache.http.wire --  >> "Host: petstore.swagger.io[\r][\n]"
+17:35:41.417 [main] DEBUG org.apache.http.wire --  >> "Connection: Keep-Alive[\r][\n]"
+17:35:41.417 [main] DEBUG org.apache.http.wire --  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.16)[\r][\n]"
+17:35:41.417 [main] DEBUG org.apache.http.wire --  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:35:41.417 [main] DEBUG org.apache.http.wire --  >> "[\r][\n]"
+17:35:41.417 [main] DEBUG org.apache.http.headers -- >> POST /v2/user HTTP/1.1
+17:35:41.417 [main] DEBUG org.apache.http.headers -- >> Accept: application/json, application/javascript, text/javascript, text/json
+17:35:41.417 [main] DEBUG org.apache.http.headers -- >> Content-Type: application/json
+17:35:41.417 [main] DEBUG org.apache.http.headers -- >> Content-Length: 184
+17:35:41.417 [main] DEBUG org.apache.http.headers -- >> Host: petstore.swagger.io
+17:35:41.417 [main] DEBUG org.apache.http.headers -- >> Connection: Keep-Alive
+17:35:41.417 [main] DEBUG org.apache.http.headers -- >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.16)
+17:35:41.417 [main] DEBUG org.apache.http.headers -- >> Accept-Encoding: gzip,deflate
+17:35:41.417 [main] DEBUG org.apache.http.wire --  >> "{"id":340621,"username":"user_tests2_1758024340621","firstName":"Alice","lastName":"Smith","email":"alice.smith+1758024340621@example.com","password":"Secret#456","phone":"9123456780"}"
+17:35:41.670 [main] DEBUG org.apache.http.wire --  << "HTTP/1.1 200 OK[\r][\n]"
+17:35:41.670 [main] DEBUG org.apache.http.wire --  << "Date: Tue, 16 Sep 2025 12:05:41 GMT[\r][\n]"
+17:35:41.670 [main] DEBUG org.apache.http.wire --  << "Content-Type: application/json[\r][\n]"
+17:35:41.670 [main] DEBUG org.apache.http.wire --  << "Transfer-Encoding: chunked[\r][\n]"
+17:35:41.670 [main] DEBUG org.apache.http.wire --  << "Connection: keep-alive[\r][\n]"
+17:35:41.670 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Origin: *[\r][\n]"
+17:35:41.670 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+17:35:41.670 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+17:35:41.670 [main] DEBUG org.apache.http.wire --  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+17:35:41.670 [main] DEBUG org.apache.http.wire --  << "[\r][\n]"
+17:35:41.670 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Receiving response: HTTP/1.1 200 OK
+17:35:41.670 [main] DEBUG org.apache.http.headers -- << HTTP/1.1 200 OK
+17:35:41.670 [main] DEBUG org.apache.http.headers -- << Date: Tue, 16 Sep 2025 12:05:41 GMT
+17:35:41.672 [main] DEBUG org.apache.http.headers -- << Content-Type: application/json
+17:35:41.672 [main] DEBUG org.apache.http.headers -- << Transfer-Encoding: chunked
+17:35:41.672 [main] DEBUG org.apache.http.headers -- << Connection: keep-alive
+17:35:41.672 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Origin: *
+17:35:41.672 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+17:35:41.672 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+17:35:41.672 [main] DEBUG org.apache.http.headers -- << Server: Jetty(9.2.9.v20150224)
+17:35:41.672 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Connection can be kept alive indefinitely
+17:35:41.673 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsing response as: application/json
+17:35:41.673 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUser" classname="api.test.UserTests2" time="1.481">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at api.test.UserTests2.testGetUser(UserTests2.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[17:35:41.687 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Get connection for route {s}->https://petstore.swagger.io:443
+17:35:41.687 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator -- Connecting to petstore.swagger.io:443
+17:35:42.739 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: ignoreCookies
+17:35:42.739 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+17:35:42.739 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication -- Target auth state: UNCHALLENGED
+17:35:42.739 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication -- Proxy auth state: UNCHALLENGED
+17:35:42.739 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Attempt 1 to execute request
+17:35:42.739 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Sending request: GET /v2/user/user_tests2_1758024340621 HTTP/1.1
+17:35:42.739 [main] DEBUG org.apache.http.wire --  >> "GET /v2/user/user_tests2_1758024340621 HTTP/1.1[\r][\n]"
+17:35:42.739 [main] DEBUG org.apache.http.wire --  >> "Accept: */*[\r][\n]"
+17:35:42.739 [main] DEBUG org.apache.http.wire --  >> "Host: petstore.swagger.io[\r][\n]"
+17:35:42.739 [main] DEBUG org.apache.http.wire --  >> "Connection: Keep-Alive[\r][\n]"
+17:35:42.739 [main] DEBUG org.apache.http.wire --  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.16)[\r][\n]"
+17:35:42.739 [main] DEBUG org.apache.http.wire --  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:35:42.739 [main] DEBUG org.apache.http.wire --  >> "[\r][\n]"
+17:35:42.739 [main] DEBUG org.apache.http.headers -- >> GET /v2/user/user_tests2_1758024340621 HTTP/1.1
+17:35:42.739 [main] DEBUG org.apache.http.headers -- >> Accept: */*
+17:35:42.739 [main] DEBUG org.apache.http.headers -- >> Host: petstore.swagger.io
+17:35:42.739 [main] DEBUG org.apache.http.headers -- >> Connection: Keep-Alive
+17:35:42.739 [main] DEBUG org.apache.http.headers -- >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.16)
+17:35:42.739 [main] DEBUG org.apache.http.headers -- >> Accept-Encoding: gzip,deflate
+17:35:43.149 [main] DEBUG org.apache.http.wire --  << "HTTP/1.1 404 Not Found[\r][\n]"
+17:35:43.149 [main] DEBUG org.apache.http.wire --  << "Date: Tue, 16 Sep 2025 12:05:42 GMT[\r][\n]"
+17:35:43.149 [main] DEBUG org.apache.http.wire --  << "Content-Type: application/json[\r][\n]"
+17:35:43.149 [main] DEBUG org.apache.http.wire --  << "Transfer-Encoding: chunked[\r][\n]"
+17:35:43.149 [main] DEBUG org.apache.http.wire --  << "Connection: keep-alive[\r][\n]"
+17:35:43.149 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Origin: *[\r][\n]"
+17:35:43.149 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+17:35:43.149 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+17:35:43.149 [main] DEBUG org.apache.http.wire --  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+17:35:43.149 [main] DEBUG org.apache.http.wire --  << "[\r][\n]"
+17:35:43.149 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Receiving response: HTTP/1.1 404 Not Found
+17:35:43.149 [main] DEBUG org.apache.http.headers -- << HTTP/1.1 404 Not Found
+17:35:43.149 [main] DEBUG org.apache.http.headers -- << Date: Tue, 16 Sep 2025 12:05:42 GMT
+17:35:43.149 [main] DEBUG org.apache.http.headers -- << Content-Type: application/json
+17:35:43.149 [main] DEBUG org.apache.http.headers -- << Transfer-Encoding: chunked
+17:35:43.149 [main] DEBUG org.apache.http.headers -- << Connection: keep-alive
+17:35:43.149 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Origin: *
+17:35:43.149 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+17:35:43.149 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+17:35:43.149 [main] DEBUG org.apache.http.headers -- << Server: Jetty(9.2.9.v20150224)
+17:35:43.149 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Connection can be kept alive indefinitely
+17:35:43.149 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsing response as: application/json
+17:35:43.149 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser" classname="api.test.UserTests2" time="1.229">
+    <system-out><![CDATA[17:35:43.198 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Get connection for route {s}->https://petstore.swagger.io:443
+17:35:43.198 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator -- Connecting to petstore.swagger.io:443
+17:35:44.068 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: ignoreCookies
+17:35:44.068 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+17:35:44.068 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication -- Target auth state: UNCHALLENGED
+17:35:44.068 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication -- Proxy auth state: UNCHALLENGED
+17:35:44.068 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Attempt 1 to execute request
+17:35:44.068 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Sending request: PUT /v2/user/user_tests2_1758024340621 HTTP/1.1
+17:35:44.070 [main] DEBUG org.apache.http.wire --  >> "PUT /v2/user/user_tests2_1758024340621 HTTP/1.1[\r][\n]"
+17:35:44.070 [main] DEBUG org.apache.http.wire --  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+17:35:44.070 [main] DEBUG org.apache.http.wire --  >> "Content-Type: application/json[\r][\n]"
+17:35:44.070 [main] DEBUG org.apache.http.wire --  >> "Content-Length: 186[\r][\n]"
+17:35:44.070 [main] DEBUG org.apache.http.wire --  >> "Host: petstore.swagger.io[\r][\n]"
+17:35:44.070 [main] DEBUG org.apache.http.wire --  >> "Connection: Keep-Alive[\r][\n]"
+17:35:44.070 [main] DEBUG org.apache.http.wire --  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.16)[\r][\n]"
+17:35:44.070 [main] DEBUG org.apache.http.wire --  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:35:44.070 [main] DEBUG org.apache.http.wire --  >> "[\r][\n]"
+17:35:44.070 [main] DEBUG org.apache.http.headers -- >> PUT /v2/user/user_tests2_1758024340621 HTTP/1.1
+17:35:44.070 [main] DEBUG org.apache.http.headers -- >> Accept: application/json, application/javascript, text/javascript, text/json
+17:35:44.070 [main] DEBUG org.apache.http.headers -- >> Content-Type: application/json
+17:35:44.070 [main] DEBUG org.apache.http.headers -- >> Content-Length: 186
+17:35:44.070 [main] DEBUG org.apache.http.headers -- >> Host: petstore.swagger.io
+17:35:44.070 [main] DEBUG org.apache.http.headers -- >> Connection: Keep-Alive
+17:35:44.070 [main] DEBUG org.apache.http.headers -- >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.16)
+17:35:44.070 [main] DEBUG org.apache.http.headers -- >> Accept-Encoding: gzip,deflate
+17:35:44.070 [main] DEBUG org.apache.http.wire --  >> "{"id":340621,"username":"user_tests2_1758024340621","firstName":"Alice","lastName":"Johnson","email":"alice.smith+1758024340621@example.com","password":"Secret#456","phone":"9123456780"}"
+17:35:44.381 [main] DEBUG org.apache.http.wire --  << "HTTP/1.1 200 OK[\r][\n]"
+17:35:44.381 [main] DEBUG org.apache.http.wire --  << "Date: Tue, 16 Sep 2025 12:05:44 GMT[\r][\n]"
+17:35:44.381 [main] DEBUG org.apache.http.wire --  << "Content-Type: application/json[\r][\n]"
+17:35:44.381 [main] DEBUG org.apache.http.wire --  << "Transfer-Encoding: chunked[\r][\n]"
+17:35:44.381 [main] DEBUG org.apache.http.wire --  << "Connection: keep-alive[\r][\n]"
+17:35:44.381 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Origin: *[\r][\n]"
+17:35:44.381 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+17:35:44.381 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+17:35:44.381 [main] DEBUG org.apache.http.wire --  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+17:35:44.381 [main] DEBUG org.apache.http.wire --  << "[\r][\n]"
+17:35:44.381 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Receiving response: HTTP/1.1 200 OK
+17:35:44.381 [main] DEBUG org.apache.http.headers -- << HTTP/1.1 200 OK
+17:35:44.381 [main] DEBUG org.apache.http.headers -- << Date: Tue, 16 Sep 2025 12:05:44 GMT
+17:35:44.381 [main] DEBUG org.apache.http.headers -- << Content-Type: application/json
+17:35:44.381 [main] DEBUG org.apache.http.headers -- << Transfer-Encoding: chunked
+17:35:44.381 [main] DEBUG org.apache.http.headers -- << Connection: keep-alive
+17:35:44.381 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Origin: *
+17:35:44.381 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+17:35:44.381 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+17:35:44.381 [main] DEBUG org.apache.http.headers -- << Server: Jetty(9.2.9.v20150224)
+17:35:44.381 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Connection can be kept alive indefinitely
+17:35:44.381 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsing response as: application/json
+17:35:44.381 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteUser" classname="api.test.UserTests2" time="1.186">
+    <system-out><![CDATA[17:35:44.407 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Get connection for route {s}->https://petstore.swagger.io:443
+17:35:44.407 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator -- Connecting to petstore.swagger.io:443
+17:35:45.299 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: ignoreCookies
+17:35:45.299 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+17:35:45.299 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication -- Target auth state: UNCHALLENGED
+17:35:45.299 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication -- Proxy auth state: UNCHALLENGED
+17:35:45.299 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Attempt 1 to execute request
+17:35:45.299 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Sending request: DELETE /v2/user/user_tests2_1758024340621 HTTP/1.1
+17:35:45.299 [main] DEBUG org.apache.http.wire --  >> "DELETE /v2/user/user_tests2_1758024340621 HTTP/1.1[\r][\n]"
+17:35:45.299 [main] DEBUG org.apache.http.wire --  >> "Accept: */*[\r][\n]"
+17:35:45.299 [main] DEBUG org.apache.http.wire --  >> "Host: petstore.swagger.io[\r][\n]"
+17:35:45.299 [main] DEBUG org.apache.http.wire --  >> "Connection: Keep-Alive[\r][\n]"
+17:35:45.299 [main] DEBUG org.apache.http.wire --  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.16)[\r][\n]"
+17:35:45.299 [main] DEBUG org.apache.http.wire --  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:35:45.299 [main] DEBUG org.apache.http.wire --  >> "[\r][\n]"
+17:35:45.299 [main] DEBUG org.apache.http.headers -- >> DELETE /v2/user/user_tests2_1758024340621 HTTP/1.1
+17:35:45.299 [main] DEBUG org.apache.http.headers -- >> Accept: */*
+17:35:45.299 [main] DEBUG org.apache.http.headers -- >> Host: petstore.swagger.io
+17:35:45.299 [main] DEBUG org.apache.http.headers -- >> Connection: Keep-Alive
+17:35:45.299 [main] DEBUG org.apache.http.headers -- >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.16)
+17:35:45.299 [main] DEBUG org.apache.http.headers -- >> Accept-Encoding: gzip,deflate
+17:35:45.545 [main] DEBUG org.apache.http.wire --  << "HTTP/1.1 200 OK[\r][\n]"
+17:35:45.545 [main] DEBUG org.apache.http.wire --  << "Date: Tue, 16 Sep 2025 12:05:45 GMT[\r][\n]"
+17:35:45.545 [main] DEBUG org.apache.http.wire --  << "Content-Type: application/json[\r][\n]"
+17:35:45.545 [main] DEBUG org.apache.http.wire --  << "Transfer-Encoding: chunked[\r][\n]"
+17:35:45.545 [main] DEBUG org.apache.http.wire --  << "Connection: keep-alive[\r][\n]"
+17:35:45.545 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Origin: *[\r][\n]"
+17:35:45.545 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+17:35:45.545 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+17:35:45.545 [main] DEBUG org.apache.http.wire --  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+17:35:45.545 [main] DEBUG org.apache.http.wire --  << "[\r][\n]"
+17:35:45.545 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Receiving response: HTTP/1.1 200 OK
+17:35:45.545 [main] DEBUG org.apache.http.headers -- << HTTP/1.1 200 OK
+17:35:45.545 [main] DEBUG org.apache.http.headers -- << Date: Tue, 16 Sep 2025 12:05:45 GMT
+17:35:45.545 [main] DEBUG org.apache.http.headers -- << Content-Type: application/json
+17:35:45.545 [main] DEBUG org.apache.http.headers -- << Transfer-Encoding: chunked
+17:35:45.545 [main] DEBUG org.apache.http.headers -- << Connection: keep-alive
+17:35:45.545 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Origin: *
+17:35:45.545 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+17:35:45.545 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+17:35:45.545 [main] DEBUG org.apache.http.headers -- << Server: Jetty(9.2.9.v20150224)
+17:35:45.545 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Connection can be kept alive indefinitely
+17:35:45.545 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsing response as: application/json
+17:35:45.545 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateUser" classname="api.test.UserTestsISA" time="0.922">
+    <system-out><![CDATA[17:35:45.585 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Get connection for route {s}->https://petstore.swagger.io:443
+17:35:45.585 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator -- Connecting to petstore.swagger.io:443
+17:35:46.280 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: ignoreCookies
+17:35:46.280 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+17:35:46.280 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication -- Target auth state: UNCHALLENGED
+17:35:46.280 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication -- Proxy auth state: UNCHALLENGED
+17:35:46.280 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Attempt 1 to execute request
+17:35:46.280 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Sending request: POST /v2/user HTTP/1.1
+17:35:46.280 [main] DEBUG org.apache.http.wire --  >> "POST /v2/user HTTP/1.1[\r][\n]"
+17:35:46.280 [main] DEBUG org.apache.http.wire --  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+17:35:46.280 [main] DEBUG org.apache.http.wire --  >> "Content-Type: application/json[\r][\n]"
+17:35:46.280 [main] DEBUG org.apache.http.wire --  >> "Content-Length: 187[\r][\n]"
+17:35:46.280 [main] DEBUG org.apache.http.wire --  >> "Host: petstore.swagger.io[\r][\n]"
+17:35:46.280 [main] DEBUG org.apache.http.wire --  >> "Connection: Keep-Alive[\r][\n]"
+17:35:46.280 [main] DEBUG org.apache.http.wire --  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.16)[\r][\n]"
+17:35:46.280 [main] DEBUG org.apache.http.wire --  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:35:46.280 [main] DEBUG org.apache.http.wire --  >> "[\r][\n]"
+17:35:46.280 [main] DEBUG org.apache.http.headers -- >> POST /v2/user HTTP/1.1
+17:35:46.280 [main] DEBUG org.apache.http.headers -- >> Accept: application/json, application/javascript, text/javascript, text/json
+17:35:46.280 [main] DEBUG org.apache.http.headers -- >> Content-Type: application/json
+17:35:46.280 [main] DEBUG org.apache.http.headers -- >> Content-Length: 187
+17:35:46.280 [main] DEBUG org.apache.http.headers -- >> Host: petstore.swagger.io
+17:35:46.280 [main] DEBUG org.apache.http.headers -- >> Connection: Keep-Alive
+17:35:46.280 [main] DEBUG org.apache.http.headers -- >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.16)
+17:35:46.280 [main] DEBUG org.apache.http.headers -- >> Accept-Encoding: gzip,deflate
+17:35:46.280 [main] DEBUG org.apache.http.wire --  >> "{"id":345549,"username":"user_isa_1758024345549","firstName":"Isaac","lastName":"Newton","email":"isaac.newton+1758024345549@example.com","password":"AppleFell#1687","phone":"9000000001"}"
+17:35:46.506 [main] DEBUG org.apache.http.wire --  << "HTTP/1.1 200 OK[\r][\n]"
+17:35:46.506 [main] DEBUG org.apache.http.wire --  << "Date: Tue, 16 Sep 2025 12:05:46 GMT[\r][\n]"
+17:35:46.506 [main] DEBUG org.apache.http.wire --  << "Content-Type: application/json[\r][\n]"
+17:35:46.506 [main] DEBUG org.apache.http.wire --  << "Transfer-Encoding: chunked[\r][\n]"
+17:35:46.506 [main] DEBUG org.apache.http.wire --  << "Connection: keep-alive[\r][\n]"
+17:35:46.506 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Origin: *[\r][\n]"
+17:35:46.506 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+17:35:46.506 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+17:35:46.506 [main] DEBUG org.apache.http.wire --  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+17:35:46.506 [main] DEBUG org.apache.http.wire --  << "[\r][\n]"
+17:35:46.506 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Receiving response: HTTP/1.1 200 OK
+17:35:46.506 [main] DEBUG org.apache.http.headers -- << HTTP/1.1 200 OK
+17:35:46.506 [main] DEBUG org.apache.http.headers -- << Date: Tue, 16 Sep 2025 12:05:46 GMT
+17:35:46.506 [main] DEBUG org.apache.http.headers -- << Content-Type: application/json
+17:35:46.506 [main] DEBUG org.apache.http.headers -- << Transfer-Encoding: chunked
+17:35:46.506 [main] DEBUG org.apache.http.headers -- << Connection: keep-alive
+17:35:46.506 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Origin: *
+17:35:46.506 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+17:35:46.506 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+17:35:46.506 [main] DEBUG org.apache.http.headers -- << Server: Jetty(9.2.9.v20150224)
+17:35:46.506 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Connection can be kept alive indefinitely
+17:35:46.508 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsing response as: application/json
+17:35:46.508 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUser" classname="api.test.UserTestsISA" time="1.037">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at api.test.UserTestsISA.testGetUser(UserTestsISA.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[17:35:46.518 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Get connection for route {s}->https://petstore.swagger.io:443
+17:35:46.518 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator -- Connecting to petstore.swagger.io:443
+17:35:47.271 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: ignoreCookies
+17:35:47.271 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+17:35:47.271 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication -- Target auth state: UNCHALLENGED
+17:35:47.271 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication -- Proxy auth state: UNCHALLENGED
+17:35:47.271 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Attempt 1 to execute request
+17:35:47.271 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Sending request: GET /v2/user/user_isa_1758024345549 HTTP/1.1
+17:35:47.271 [main] DEBUG org.apache.http.wire --  >> "GET /v2/user/user_isa_1758024345549 HTTP/1.1[\r][\n]"
+17:35:47.271 [main] DEBUG org.apache.http.wire --  >> "Accept: */*[\r][\n]"
+17:35:47.271 [main] DEBUG org.apache.http.wire --  >> "Host: petstore.swagger.io[\r][\n]"
+17:35:47.271 [main] DEBUG org.apache.http.wire --  >> "Connection: Keep-Alive[\r][\n]"
+17:35:47.271 [main] DEBUG org.apache.http.wire --  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.16)[\r][\n]"
+17:35:47.271 [main] DEBUG org.apache.http.wire --  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:35:47.271 [main] DEBUG org.apache.http.wire --  >> "[\r][\n]"
+17:35:47.271 [main] DEBUG org.apache.http.headers -- >> GET /v2/user/user_isa_1758024345549 HTTP/1.1
+17:35:47.271 [main] DEBUG org.apache.http.headers -- >> Accept: */*
+17:35:47.271 [main] DEBUG org.apache.http.headers -- >> Host: petstore.swagger.io
+17:35:47.271 [main] DEBUG org.apache.http.headers -- >> Connection: Keep-Alive
+17:35:47.271 [main] DEBUG org.apache.http.headers -- >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.16)
+17:35:47.271 [main] DEBUG org.apache.http.headers -- >> Accept-Encoding: gzip,deflate
+17:35:47.530 [main] DEBUG org.apache.http.wire --  << "HTTP/1.1 404 Not Found[\r][\n]"
+17:35:47.530 [main] DEBUG org.apache.http.wire --  << "Date: Tue, 16 Sep 2025 12:05:47 GMT[\r][\n]"
+17:35:47.530 [main] DEBUG org.apache.http.wire --  << "Content-Type: application/json[\r][\n]"
+17:35:47.530 [main] DEBUG org.apache.http.wire --  << "Transfer-Encoding: chunked[\r][\n]"
+17:35:47.530 [main] DEBUG org.apache.http.wire --  << "Connection: keep-alive[\r][\n]"
+17:35:47.530 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Origin: *[\r][\n]"
+17:35:47.530 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+17:35:47.530 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+17:35:47.530 [main] DEBUG org.apache.http.wire --  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+17:35:47.530 [main] DEBUG org.apache.http.wire --  << "[\r][\n]"
+17:35:47.530 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Receiving response: HTTP/1.1 404 Not Found
+17:35:47.530 [main] DEBUG org.apache.http.headers -- << HTTP/1.1 404 Not Found
+17:35:47.530 [main] DEBUG org.apache.http.headers -- << Date: Tue, 16 Sep 2025 12:05:47 GMT
+17:35:47.530 [main] DEBUG org.apache.http.headers -- << Content-Type: application/json
+17:35:47.530 [main] DEBUG org.apache.http.headers -- << Transfer-Encoding: chunked
+17:35:47.530 [main] DEBUG org.apache.http.headers -- << Connection: keep-alive
+17:35:47.530 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Origin: *
+17:35:47.530 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+17:35:47.530 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+17:35:47.530 [main] DEBUG org.apache.http.headers -- << Server: Jetty(9.2.9.v20150224)
+17:35:47.530 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Connection can be kept alive indefinitely
+17:35:47.530 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsing response as: application/json
+17:35:47.533 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser" classname="api.test.UserTestsISA" time="1.004">
+    <system-out><![CDATA[17:35:47.561 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Get connection for route {s}->https://petstore.swagger.io:443
+17:35:47.561 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator -- Connecting to petstore.swagger.io:443
+17:35:48.308 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: ignoreCookies
+17:35:48.310 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+17:35:48.310 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication -- Target auth state: UNCHALLENGED
+17:35:48.310 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication -- Proxy auth state: UNCHALLENGED
+17:35:48.310 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Attempt 1 to execute request
+17:35:48.310 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Sending request: PUT /v2/user/user_isa_1758024345549 HTTP/1.1
+17:35:48.310 [main] DEBUG org.apache.http.wire --  >> "PUT /v2/user/user_isa_1758024345549 HTTP/1.1[\r][\n]"
+17:35:48.310 [main] DEBUG org.apache.http.wire --  >> "Accept: application/json, application/javascript, text/javascript, text/json[\r][\n]"
+17:35:48.310 [main] DEBUG org.apache.http.wire --  >> "Content-Type: application/json[\r][\n]"
+17:35:48.310 [main] DEBUG org.apache.http.wire --  >> "Content-Length: 185[\r][\n]"
+17:35:48.310 [main] DEBUG org.apache.http.wire --  >> "Host: petstore.swagger.io[\r][\n]"
+17:35:48.310 [main] DEBUG org.apache.http.wire --  >> "Connection: Keep-Alive[\r][\n]"
+17:35:48.310 [main] DEBUG org.apache.http.wire --  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.16)[\r][\n]"
+17:35:48.310 [main] DEBUG org.apache.http.wire --  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:35:48.310 [main] DEBUG org.apache.http.wire --  >> "[\r][\n]"
+17:35:48.310 [main] DEBUG org.apache.http.headers -- >> PUT /v2/user/user_isa_1758024345549 HTTP/1.1
+17:35:48.310 [main] DEBUG org.apache.http.headers -- >> Accept: application/json, application/javascript, text/javascript, text/json
+17:35:48.310 [main] DEBUG org.apache.http.headers -- >> Content-Type: application/json
+17:35:48.310 [main] DEBUG org.apache.http.headers -- >> Content-Length: 185
+17:35:48.310 [main] DEBUG org.apache.http.headers -- >> Host: petstore.swagger.io
+17:35:48.310 [main] DEBUG org.apache.http.headers -- >> Connection: Keep-Alive
+17:35:48.310 [main] DEBUG org.apache.http.headers -- >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.16)
+17:35:48.310 [main] DEBUG org.apache.http.headers -- >> Accept-Encoding: gzip,deflate
+17:35:48.310 [main] DEBUG org.apache.http.wire --  >> "{"id":345549,"username":"user_isa_1758024345549","firstName":"Isa","lastName":"Newton","email":"isaac.newton+1758024345549@example.com","password":"AppleFell#1687","phone":"9000000001"}"
+17:35:48.533 [main] DEBUG org.apache.http.wire --  << "HTTP/1.1 200 OK[\r][\n]"
+17:35:48.533 [main] DEBUG org.apache.http.wire --  << "Date: Tue, 16 Sep 2025 12:05:48 GMT[\r][\n]"
+17:35:48.533 [main] DEBUG org.apache.http.wire --  << "Content-Type: application/json[\r][\n]"
+17:35:48.533 [main] DEBUG org.apache.http.wire --  << "Transfer-Encoding: chunked[\r][\n]"
+17:35:48.533 [main] DEBUG org.apache.http.wire --  << "Connection: keep-alive[\r][\n]"
+17:35:48.533 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Origin: *[\r][\n]"
+17:35:48.533 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+17:35:48.533 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+17:35:48.533 [main] DEBUG org.apache.http.wire --  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+17:35:48.533 [main] DEBUG org.apache.http.wire --  << "[\r][\n]"
+17:35:48.533 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Receiving response: HTTP/1.1 200 OK
+17:35:48.533 [main] DEBUG org.apache.http.headers -- << HTTP/1.1 200 OK
+17:35:48.533 [main] DEBUG org.apache.http.headers -- << Date: Tue, 16 Sep 2025 12:05:48 GMT
+17:35:48.533 [main] DEBUG org.apache.http.headers -- << Content-Type: application/json
+17:35:48.533 [main] DEBUG org.apache.http.headers -- << Transfer-Encoding: chunked
+17:35:48.533 [main] DEBUG org.apache.http.headers -- << Connection: keep-alive
+17:35:48.533 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Origin: *
+17:35:48.533 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+17:35:48.533 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+17:35:48.533 [main] DEBUG org.apache.http.headers -- << Server: Jetty(9.2.9.v20150224)
+17:35:48.533 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Connection can be kept alive indefinitely
+17:35:48.533 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsing response as: application/json
+17:35:48.533 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteUser" classname="api.test.UserTestsISA" time="0.991">
+    <system-out><![CDATA[17:35:48.596 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager -- Get connection for route {s}->https://petstore.swagger.io:443
+17:35:48.596 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator -- Connecting to petstore.swagger.io:443
+17:35:49.297 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies -- CookieSpec selected: ignoreCookies
+17:35:49.306 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache -- Auth cache not set in the context
+17:35:49.306 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication -- Target auth state: UNCHALLENGED
+17:35:49.306 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication -- Proxy auth state: UNCHALLENGED
+17:35:49.306 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Attempt 1 to execute request
+17:35:49.306 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Sending request: DELETE /v2/user/user_isa_1758024345549 HTTP/1.1
+17:35:49.306 [main] DEBUG org.apache.http.wire --  >> "DELETE /v2/user/user_isa_1758024345549 HTTP/1.1[\r][\n]"
+17:35:49.306 [main] DEBUG org.apache.http.wire --  >> "Accept: */*[\r][\n]"
+17:35:49.306 [main] DEBUG org.apache.http.wire --  >> "Host: petstore.swagger.io[\r][\n]"
+17:35:49.306 [main] DEBUG org.apache.http.wire --  >> "Connection: Keep-Alive[\r][\n]"
+17:35:49.306 [main] DEBUG org.apache.http.wire --  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.16)[\r][\n]"
+17:35:49.306 [main] DEBUG org.apache.http.wire --  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+17:35:49.306 [main] DEBUG org.apache.http.wire --  >> "[\r][\n]"
+17:35:49.306 [main] DEBUG org.apache.http.headers -- >> DELETE /v2/user/user_isa_1758024345549 HTTP/1.1
+17:35:49.306 [main] DEBUG org.apache.http.headers -- >> Accept: */*
+17:35:49.306 [main] DEBUG org.apache.http.headers -- >> Host: petstore.swagger.io
+17:35:49.306 [main] DEBUG org.apache.http.headers -- >> Connection: Keep-Alive
+17:35:49.306 [main] DEBUG org.apache.http.headers -- >> User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.16)
+17:35:49.306 [main] DEBUG org.apache.http.headers -- >> Accept-Encoding: gzip,deflate
+17:35:49.534 [main] DEBUG org.apache.http.wire --  << "HTTP/1.1 200 OK[\r][\n]"
+17:35:49.534 [main] DEBUG org.apache.http.wire --  << "Date: Tue, 16 Sep 2025 12:05:49 GMT[\r][\n]"
+17:35:49.534 [main] DEBUG org.apache.http.wire --  << "Content-Type: application/json[\r][\n]"
+17:35:49.534 [main] DEBUG org.apache.http.wire --  << "Transfer-Encoding: chunked[\r][\n]"
+17:35:49.534 [main] DEBUG org.apache.http.wire --  << "Connection: keep-alive[\r][\n]"
+17:35:49.534 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Origin: *[\r][\n]"
+17:35:49.534 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+17:35:49.534 [main] DEBUG org.apache.http.wire --  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+17:35:49.534 [main] DEBUG org.apache.http.wire --  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+17:35:49.534 [main] DEBUG org.apache.http.wire --  << "[\r][\n]"
+17:35:49.534 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection -- Receiving response: HTTP/1.1 200 OK
+17:35:49.534 [main] DEBUG org.apache.http.headers -- << HTTP/1.1 200 OK
+17:35:49.534 [main] DEBUG org.apache.http.headers -- << Date: Tue, 16 Sep 2025 12:05:49 GMT
+17:35:49.534 [main] DEBUG org.apache.http.headers -- << Content-Type: application/json
+17:35:49.534 [main] DEBUG org.apache.http.headers -- << Transfer-Encoding: chunked
+17:35:49.534 [main] DEBUG org.apache.http.headers -- << Connection: keep-alive
+17:35:49.534 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Origin: *
+17:35:49.534 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+17:35:49.534 [main] DEBUG org.apache.http.headers -- << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+17:35:49.534 [main] DEBUG org.apache.http.headers -- << Server: Jetty(9.2.9.v20150224)
+17:35:49.534 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient -- Connection can be kept alive indefinitely
+17:35:49.534 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsing response as: application/json
+17:35:49.534 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder -- Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
 ]]></system-out>
   </testcase>
 </testsuite>

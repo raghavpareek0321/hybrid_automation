@@ -1,127 +1,53 @@
 package api.test;
 
-import api.payload.User;
-import api.payload.UserPayloads;
-import io.restassured.http.ContentType;
-import org.testng.Assert;
+import api.endpoints.UserEndPoints;
+import api.payload.UserPayload;
+import io.restassured.response.Response;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
-import static io.restassured.RestAssured.*;
 
 public class UserTests2 {
 
-    private static final String BASE_URI = "https://petstore.swagger.io/v2";
+    private UserPayload user;
+    private String username;
 
-    @Test(groups = {"smoke"})
-    public void testCreateMultipleUsers() {
-        User user1 = UserPayloads.newValidUser("A");
-        User user2 = UserPayloads.newValidUser("B");
+    @BeforeClass
+    public void setup() {
+        long ts = System.currentTimeMillis();
+        username = "user_tests2_" + ts;
 
-        int status1 =
-            given()
-                .baseUri(BASE_URI)
-                .contentType(ContentType.JSON)
-                .body(user1)
-            .when()
-                .post("/user")
-            .then()
-                .extract()
-                .statusCode();
-
-        int status2 =
-            given()
-                .baseUri(BASE_URI)
-                .contentType(ContentType.JSON)
-                .body(user2)
-            .when()
-                .post("/user")
-            .then()
-                .extract()
-                .statusCode();
-
-        Assert.assertEquals(status1, 200, "Failed to create user1!");
-        Assert.assertEquals(status2, 200, "Failed to create user2!");
+        user = new UserPayload();
+        user.setId((int) (ts % 1000000));
+        user.setUsername(username);
+        user.setFirstName("Alice");
+        user.setLastName("Smith");
+        user.setEmail("alice.smith+" + ts + "@example.com");
+        user.setPassword("Secret#456");
+        user.setPhone("9123456780");
     }
 
-    @Test(groups = {"sanity"})
-    public void testGetAllUsers() {
-        // For PetStore Swagger, there’s no real endpoint for "all users",
-        // so we simulate by creating one and fetching it by username.
-        User user = UserPayloads.newValidUser();
-
-        given()
-            .baseUri(BASE_URI)
-            .contentType(ContentType.JSON)
-            .body(user)
-        .when()
-            .post("/user")
-        .then()
-            .statusCode(200);
-
-        int status =
-            given()
-                .baseUri(BASE_URI)
-            .when()
-                .get("/user/" + user.getUsername())
-            .then()
-                .extract()
-                .statusCode();
-
-        Assert.assertEquals(status, 200, "User not found!");
+    @Test(priority = 1)
+    public void testCreateUser() {
+        Response res = UserEndPoints.createUser(user);
+        res.then().statusCode(200);
     }
 
-    @Test(groups = {"sanity"})
+    @Test(priority = 2, dependsOnMethods = "testCreateUser")
+    public void testGetUser() {
+        Response res = UserEndPoints.getUser(username);
+        res.then().statusCode(200);
+    }
+
+    @Test(priority = 3, dependsOnMethods = "testCreateUser")
     public void testUpdateUser() {
-        User user = UserPayloads.newValidUser();
-        // Create user first
-        given()
-            .baseUri(BASE_URI)
-            .contentType(ContentType.JSON)
-            .body(user)
-        .when()
-            .post("/user")
-        .then()
-            .statusCode(200);
-
-        // Update first/last name
-        User updated = UserPayloads.updateName(user, "UpdatedFirst", "UpdatedLast");
-
-        int status =
-            given()
-                .baseUri(BASE_URI)
-                .contentType(ContentType.JSON)
-                .body(updated)
-            .when()
-                .put("/user/" + user.getUsername())
-            .then()
-                .extract()
-                .statusCode();
-
-        Assert.assertEquals(status, 200, "Failed to update user!");
+        user.setLastName("Johnson");
+        Response res = UserEndPoints.updateUser(username, user);
+        res.then().statusCode(200);
     }
 
-    @Test(groups = {"smoke"})
+    @Test(priority = 4, dependsOnMethods = "testCreateUser")
     public void testDeleteUser() {
-        User user = UserPayloads.newValidUser();
-
-        given()
-            .baseUri(BASE_URI)
-            .contentType(ContentType.JSON)
-            .body(user)
-        .when()
-            .post("/user")
-        .then()
-            .statusCode(200);
-
-        int status =
-            given()
-                .baseUri(BASE_URI)
-            .when()
-                .delete("/user/" + user.getUsername())
-            .then()
-                .extract()
-                .statusCode();
-
-        Assert.assertEquals(status, 200, "Failed to delete user!");
+        Response res = UserEndPoints.deleteUser(username);
+        res.then().statusCode(200);
     }
 }

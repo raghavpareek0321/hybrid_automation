@@ -5,102 +5,53 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.Iterator;
 
 public class ExcelUtils {
 
-    // Path to your Excel file
-    private static final String FILE_PATH = "testData/UserData.xlsx";
+    private Workbook workbook;
+    private Sheet sheet;
 
-    /** Returns total number of rows in the sheet */
-    public static int getRowCount(String sheetName) {
-        try (FileInputStream fis = new FileInputStream(FILE_PATH);
-             Workbook workbook = new XSSFWorkbook(fis)) {
-
-            Sheet sheet = workbook.getSheet(sheetName);
-            if (sheet == null) return 0;
-            return sheet.getPhysicalNumberOfRows();
-
+    // ✅ New constructor to accept file path + sheet name
+    public ExcelUtils(String filePath, String sheetName) {
+        try (FileInputStream fis = new FileInputStream(filePath)) {
+            workbook = new XSSFWorkbook(fis);
+            sheet = workbook.getSheet(sheetName);
         } catch (IOException e) {
-            e.printStackTrace();
-            return 0;
+            throw new RuntimeException("Error initializing ExcelUtils with file: " + filePath, e);
         }
     }
 
-    /** Returns total number of columns in the sheet (based on first row) */
-    public static int getColumnCount(String sheetName) {
-        try (FileInputStream fis = new FileInputStream(FILE_PATH);
-             Workbook workbook = new XSSFWorkbook(fis)) {
+    // Get test data as Object[][]
+    public Object[][] getTestData(String sheetName) {
+        Sheet dataSheet = workbook.getSheet(sheetName);
+        int rowCount = dataSheet.getPhysicalNumberOfRows();
+        int colCount = dataSheet.getRow(0).getPhysicalNumberOfCells();
 
-            Sheet sheet = workbook.getSheet(sheetName);
-            if (sheet == null) return 0;
+        Object[][] data = new Object[rowCount - 1][colCount];
 
-            Row row = sheet.getRow(0);
-            if (row == null) return 0;
+        Iterator<Row> rowIterator = dataSheet.iterator();
+        rowIterator.next(); // skip header row
 
-            return row.getLastCellNum();
-
-        } catch (IOException e) {
-            e.printStackTrace();
-            return 0;
-        }
-    }
-
-    /** Reads a specific cell value by row and column index */
-    public static String getCellData(String sheetName, int rowIndex, int colIndex) {
-        try (FileInputStream fis = new FileInputStream(FILE_PATH);
-             Workbook workbook = new XSSFWorkbook(fis)) {
-
-            Sheet sheet = workbook.getSheet(sheetName);
-            if (sheet == null) return "";
-
-            Row row = sheet.getRow(rowIndex);
-            if (row == null) return "";
-
-            Cell cell = row.getCell(colIndex);
-            if (cell == null) return "";
-
-            cell.setCellType(CellType.STRING);
-            return cell.getStringCellValue().trim();
-
-        } catch (IOException e) {
-            e.printStackTrace();
-            return "";
-        }
-    }
-
-    /** Returns all sheet data as Object[][] for TestNG DataProvider */
-    public static Object[][] getTestData(String sheetName) {
-        Object[][] data = null;
-
-        try (FileInputStream fis = new FileInputStream(FILE_PATH);
-             Workbook workbook = new XSSFWorkbook(fis)) {
-
-            Sheet sheet = workbook.getSheet(sheetName);
-            if (sheet == null)
-                throw new RuntimeException("Sheet not found: " + sheetName);
-
-            int rowCount = sheet.getPhysicalNumberOfRows();
-            int colCount = sheet.getRow(0).getLastCellNum();
-
-            data = new Object[rowCount - 1][colCount]; // skip header row
-
-            for (int i = 1; i < rowCount; i++) {
-                Row row = sheet.getRow(i);
-                for (int j = 0; j < colCount; j++) {
-                    Cell cell = row.getCell(j);
-                    if (cell == null) data[i - 1][j] = "";
-                    else {
-                        cell.setCellType(CellType.STRING);
-                        data[i - 1][j] = cell.getStringCellValue().trim();
-                    }
-                }
+        int i = 0;
+        while (rowIterator.hasNext()) {
+            Row row = rowIterator.next();
+            for (int j = 0; j < colCount; j++) {
+                Cell cell = row.getCell(j, Row.MissingCellPolicy.CREATE_NULL_AS_BLANK);
+                data[i][j] = getCellValue(cell);
             }
-
-        } catch (IOException e) {
-            e.printStackTrace();
-            throw new RuntimeException("Error reading Excel file: " + FILE_PATH);
+            i++;
         }
-
         return data;
+    }
+
+    private Object getCellValue(Cell cell) {
+        return switch (cell.getCellType()) {
+            case STRING -> cell.getStringCellValue();
+            case NUMERIC -> (int) cell.getNumericCellValue();
+            case BOOLEAN -> cell.getBooleanCellValue();
+            case BLANK -> "";
+            default -> "";
+        };
     }
 }

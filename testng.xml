@@ -1,38 +1,12 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="PetStoreAutomationSuite" verbose="1" parallel="none">
+<suite name="PetStoreSuite" verbose="1" parallel="none">
 
-    <!-- Global Listeners: Extent Report + Retry Analyzer -->
-    <listeners>
-        <listener class-name="api.utilities.ExtentReportManager"/>
-        <listener class-name="api.utilities.RetryListener"/>
-    </listeners>
+<listeners>
+    <listener class-name="api.utilities.ExtentReportListener"/>
+</listeners>
 
-    <!-- ========================= -->
-    <!-- Smoke Test Execution Block -->
-    <!-- ========================= -->
-    <test name="Smoke Test Execution">
-        <groups>
-            <run>
-                <include name="smoke"/>
-            </run>
-        </groups>
+    <test name="PetStore Tests">
         <packages>
-            <!-- Runs all tests inside api.test package tagged as @Test(groups="smoke") -->
-            <package name="api.test"/>
-        </packages>
-    </test>
-
-    <!-- ========================== -->
-    <!-- Sanity Test Execution Block -->
-    <!-- ========================== -->
-    <test name="Sanity Test Execution">
-        <groups>
-            <run>
-                <include name="sanity"/>
-            </run>
-        </groups>
-        <packages>
-            <!-- Runs all tests inside api.test package tagged as @Test(groups="sanity") -->
             <package name="api.test"/>
         </packages>
     </test>
